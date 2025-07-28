@@ -16,9 +16,9 @@
           {
             "group": "欢迎使用ORION",
             "pages": [
-              "产品简介",
-              "ORION能做什么",
-              "发布你的第一个流程"
+              "getstarted",
+              "capablilities",
+              "helloorion"
             ]
           },
           {
