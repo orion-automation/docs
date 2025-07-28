@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "入门",
+        "tab": "使用文档",
         "groups": [
           {
             "group": "欢迎使用ORION",
@@ -71,12 +71,12 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Community",
+          "anchor": "社区资讯",
           "href": "https://www.oriorion.com/event.html",
           "icon": "slack"
         },
         {
-          "anchor": "Blog",
+          "anchor": "博客",
           "href": "https://www.oriorion.com/news.html",
           "icon": "newspaper"
         }
