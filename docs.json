@@ -11,14 +11,14 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "入门",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "欢迎使用ORION",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "产品简介",
+              "ORION能做什么",
+              "发布你的第一个流程"
             ]
           },
           {
