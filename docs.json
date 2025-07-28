@@ -90,19 +90,18 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "支持",
+        "href": "mailto:support@oriorion.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "官网",
+      "href": "https://oriorion.com"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/eorion",
       "github": "https://github.com/orion-automation",
       "linkedin": "https://linkedin.com/company/eorion"
     }
