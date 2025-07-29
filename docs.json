@@ -46,18 +46,10 @@
         "tab": "REST API",
         "groups": [
           {
-            "group": "API documentation",
+            "group": "Authorization",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "restapi/endpoint/authorization",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "restapi/endpoint/getauthorization",
+              "restapi/endpoint/optionauthorization"
             ]
           }
         ]
