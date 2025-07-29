@@ -38,10 +38,8 @@
               "essentials/reusable-snippets"
             ]
           },
-
-     
           {
-            "group": "AI tools",
+            "dropdown": "AI tools",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
