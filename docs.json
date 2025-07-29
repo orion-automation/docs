@@ -23,8 +23,7 @@
                  "helloorion"
             ]
             }
-        ]
-            
+        ] 
           },
           {
             "group": "Customization",
@@ -32,31 +31,6 @@
               "essentials/settings",
               "test",
               "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              {
-            "group": "Editing",
-			"icon": "pencil",
-            "pages": [
-				"test",
-				"helloorion",
-				{
-					"group": "Nested group",
-					"icon": "code",
-					"pages": [
-						"getstarted",
-						"index"
-					]
-				}
-			]
-          },
-              "essentials/reusable-snippets"
             ]
           },
           {
