@@ -4,7 +4,7 @@
   "name": "ORION",
   "colors": {
     "primary": "#0f40f5",
-    "light": "#07C983",
+    "light": "#0f40f5",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
