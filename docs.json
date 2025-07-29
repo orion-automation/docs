@@ -48,8 +48,8 @@
           {
             "group": "Authorization",
             "pages": [
-              "restapi/endpoint/getauthorization",
-              "restapi/endpoint/optionauthorization"
+              "restapi/engine/authorization/get",
+              "restapi/engine/authorization/options"
             ]
           }
         ]
