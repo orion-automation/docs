@@ -52,7 +52,8 @@
               "restapi/engine/authorization/options",
               "restapi/engine/authorization/check",
               "restapi/engine/authorization/count",
-              "restapi/engine/authorization/create"
+              "restapi/engine/authorization/create",
+              "restapi/engine/authorization/delete"
             ]
           }
         ]
