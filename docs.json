@@ -39,14 +39,14 @@
             "group": "Editing",
 			"icon": "pencil",
             "pages": [
-				"installation",
-				"editor",
+				"test",
+				"helloorion",
 				{
 					"group": "Nested group",
 					"icon": "code",
 					"pages": [
-						"navigation",
-						"code"
+						"getstarted",
+						"index"
 					]
 				}
 			]
