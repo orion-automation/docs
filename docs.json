@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "willow",
   "name": "ORION",
   "colors": {
     "primary": "#0f40f5",
@@ -43,7 +43,7 @@
         ]
       },
       {
-        "tab": "REST API",
+        "tab": "API",
         "groups": [
           {
             "group": "引擎接口",
