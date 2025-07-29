@@ -39,7 +39,7 @@
             ]
           },
           {
-            "dropdown": "AI tools",
+            "group": "AI tools",
             "pages": [
               "ai-tools/cursor",
               "ai-tools/claude-code",
