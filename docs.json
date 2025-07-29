@@ -35,6 +35,22 @@
               "essentials/markdown",
               "essentials/code",
               "essentials/images",
+              {
+            "group": "Editing",
+			"icon": "pencil",
+            "pages": [
+				"installation",
+				"editor",
+				{
+					"group": "Nested group",
+					"icon": "code",
+					"pages": [
+						"navigation",
+						"code"
+					]
+				}
+			]
+          },
               "essentials/reusable-snippets"
             ]
           },
