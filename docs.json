@@ -29,7 +29,6 @@
             "group": "Customization",
             "pages": [
               "essentials/settings",
-              "test",
               "essentials/navigation"
             ]
           },
