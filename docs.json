@@ -33,7 +33,7 @@
           {
             "group": "引擎接口",
             "pages": [{
-              "group":"Authorization",
+              "group":"授权Authorization",
               "pages":[
               "restapi/engine/authorization/get",
               "restapi/engine/authorization/check",
