@@ -101,6 +101,27 @@
                   "restapi/engine/decision-requirements-definition/get-diagram-by-id",
                   "restapi/engine/decision-requirements-definition/get-xml-by-id"
                 ]
+              },
+              {
+                "group": "部署",
+                "pages": [
+                  "restapi/engine/deployment/get",
+                  "restapi/engine/deployment/count",
+                  "restapi/engine/deployment/create",
+                  "restapi/engine/deployment/get-deployments",
+                  "restapi/engine/deployment/delete",
+                  "restapi/engine/deployment/get-by-id",
+                  "restapi/engine/deployment/redeploy",
+                  "restapi/engine/deployment/get-resources",
+                  "restapi/engine/deployment/get-resource-by-id",
+                  "restapi/engine/deployment/get-resource-binary"
+                ]
+              },
+              {
+                "group": "引擎",
+                "pages": [
+                  "restapi/engine/engine/get"
+                ]
               }
             ]
           }
