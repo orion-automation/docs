@@ -40,8 +40,8 @@
               "restapi/engine/authorization/count",
               "restapi/engine/authorization/create",
               "restapi/engine/authorization/delete",
-                "restapi/engine/authorization/getid",
-                "restapi/engine/authorization/update"
+              "restapi/engine/authorization/getid",
+              "restapi/engine/authorization/update"
               ]
             }
             ]
