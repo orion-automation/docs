@@ -220,7 +220,7 @@
           "Authorization"
         ],
         "summary": "Get Authorizations",
-        "description": "Queries for a list of authorizations using a list of parameters.\nThe size of the result set can be retrieved by using the\n[Get Authorization Count](https://docs.camunda.org/manual/7.22/reference/rest/authorization/get-query-count/) method.",
+        "description": "通过参数设置来查询获取授权列表.\n结果集的大小可以通过计数接口获得\n[Get Authorization Count](https://docs.eorion.com/restapi/engine/authorization/count/) method.",
         "parameters": [
           {
             "name": "id",
