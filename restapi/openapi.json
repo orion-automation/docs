@@ -1,8 +1,8 @@
 {
   "openapi": "3.0.2",
   "info": {
-    "title": "Camunda Platform REST API",
-    "description": "OpenApi Spec for Camunda Platform REST API.",
+    "title": "ORION Platform REST API",
+    "description": "OpenApi Spec for ORION Camunda Platform REST API.",
     "version": "7.22.6-ee",
     "license": {
       "name": "Apache License 2.0",
@@ -10,8 +10,8 @@
     }
   },
   "externalDocs": {
-    "description": "Find out more about Camunda Rest API",
-    "url": "https://docs.camunda.org/manual/7.22/reference/rest/overview/"
+    "description": "Find out more about ORION Rest API",
+    "url": "https://docs.eorion.com"
   },
   "servers": [
     {
