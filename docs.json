@@ -50,7 +50,40 @@
                 "group": "批处理",
                 "pages": [
                   "restapi/engine/batch/get",
-                  "restapi/engine/batch/count"
+                  "restapi/engine/batch/count",
+                  "restapi/engine/batch/statistics",
+                  "restapi/engine/batch/countstatistics",
+                  "restapi/engine/batch/delete",
+                  "restapi/engine/batch/getid",
+                  "restapi/engine/batch/activesuspend"
+                ]
+              },
+              {
+                "group": "条件",
+                "pages": [
+                  "restapi/engine/condition/evaluate"
+                ]
+              },
+              {
+                "group": "决策定义",
+                "pages": [
+                  "restapi/engine/decision-definition/get",
+                  "restapi/engine/decision-definition/count",
+                  "restapi/engine/decision-definition/getbykey",
+                  "restapi/engine/decision-definition/getdiagrambykey",
+                  "restapi/engine/decision-definition/evaluatebykey",
+                  "restapi/engine/decision-definition/updatehttlbykey",
+                  "restapi/engine/decision-definition/getbytenantandkey",
+                  "restapi/engine/decision-definition/getdiagrambytenantandkey",
+                  "restapi/engine/decision-definition/evaluatebytenantandkey",
+                  "restapi/engine/decision-definition/updatehttlbytenantandkey",
+                  "restapi/engine/decision-definition/getxmlbytenantandkey",
+                  "restapi/engine/decision-definition/getxmlbykey",
+                  "restapi/engine/decision-definition/getbyid",
+                  "restapi/engine/decision-definition/getdiagram",
+                  "restapi/engine/decision-definition/evaluatebyid",
+                  "restapi/engine/decision-definition/updatehttl",
+                  "restapi/engine/decision-definition/getxmlbyid"
                 ]
               }
             ]
