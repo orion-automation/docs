@@ -69,21 +69,37 @@
                 "pages": [
                   "restapi/engine/decision-definition/get",
                   "restapi/engine/decision-definition/count",
-                  "restapi/engine/decision-definition/getbykey",
-                  "restapi/engine/decision-definition/getdiagrambykey",
-                  "restapi/engine/decision-definition/evaluatebykey",
-                  "restapi/engine/decision-definition/updatehttlbykey",
-                  "restapi/engine/decision-definition/getbytenantandkey",
-                  "restapi/engine/decision-definition/getdiagrambytenantandkey",
-                  "restapi/engine/decision-definition/evaluatebytenantandkey",
-                  "restapi/engine/decision-definition/updatehttlbytenantandkey",
-                  "restapi/engine/decision-definition/getxmlbytenantandkey",
-                  "restapi/engine/decision-definition/getxmlbykey",
-                  "restapi/engine/decision-definition/getbyid",
-                  "restapi/engine/decision-definition/getdiagram",
-                  "restapi/engine/decision-definition/evaluatebyid",
-                  "restapi/engine/decision-definition/updatehttl",
-                  "restapi/engine/decision-definition/getxmlbyid"
+                  "restapi/engine/decision-definition/get-by-key",
+                  "restapi/engine/decision-definition/get-diagram-by-key",
+                  "restapi/engine/decision-definition/evaluate-by-key",
+                  "restapi/engine/decision-definition/update-ttl-by-key",
+                  "restapi/engine/decision-definition/get-by-tenant-and-key",
+                  "restapi/engine/decision-definition/get-diagram-by-tenant-and-key",
+                  "restapi/engine/decision-definition/evaluate-by-tenant-and-key",
+                  "restapi/engine/decision-definition/update-ttl-by-tenant-and-key",
+                  "restapi/engine/decision-definition/get-xml-by-tenant-and-key",
+                  "restapi/engine/decision-definition/get-xml-by-key",
+                  "restapi/engine/decision-definition/get-by-id",
+                  "restapi/engine/decision-definition/get-diagram-by-id",
+                  "restapi/engine/decision-definition/evaluate-by-id",
+                  "restapi/engine/decision-definition/update-ttl-by-id",
+                  "restapi/engine/decision-definition/get-xml-by-id"
+                ]
+              },
+              {
+                "group": "决策依赖定义",
+                "pages": [
+                  "restapi/engine/decision-requirements-definition/get",
+                  "restapi/engine/decision-requirements-definition/count",
+                  "restapi/engine/decision-requirements-definition/get-by-key",
+                  "restapi/engine/decision-requirements-definition/get-diagram-by-key",
+                  "restapi/engine/decision-requirements-definition/get-by-tenant-and-key",
+                  "restapi/engine/decision-requirements-definition/get-diagram-by-tenant-and-key",
+                  "restapi/engine/decision-requirements-definition/get-xml-by-tenant-and-key",
+                  "restapi/engine/decision-requirements-definition/get-xml-by-key",
+                  "restapi/engine/decision-requirements-definition/get-by-id",
+                  "restapi/engine/decision-requirements-definition/get-diagram-by-id",
+                  "restapi/engine/decision-requirements-definition/get-xml-by-id"
                 ]
               }
             ]
