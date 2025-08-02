@@ -15,14 +15,15 @@
         "groups": [
           {
             "group": "入门",
-            "pages":[{
-               "group": "欢迎使用ORION",
-               "pages": [
-                 "getstarted",
-                 "capabilities",
-                 "helloorion"
-            ]
-            }
+            "pages": [
+              {
+                "group": "欢迎使用ORION",
+                "pages": [
+                  "getstarted",
+                  "capabilities",
+                  "helloorion"
+                ]
+              }
             ]
           }
         ]
@@ -32,18 +33,19 @@
         "groups": [
           {
             "group": "引擎接口",
-            "pages": [{
-              "group":"授权",
-              "pages":[
-              "restapi/engine/authorization/get",
-              "restapi/engine/authorization/check",
-              "restapi/engine/authorization/count",
-              "restapi/engine/authorization/create",
-              "restapi/engine/authorization/delete",
-              "restapi/engine/authorization/getid",
-              "restapi/engine/authorization/update"
-              ]
-            }
+            "pages": [
+              {
+                "group": "授权",
+                "pages": [
+                  "restapi/engine/authorization/get",
+                  "restapi/engine/authorization/check",
+                  "restapi/engine/authorization/count",
+                  "restapi/engine/authorization/create",
+                  "restapi/engine/authorization/delete",
+                  "restapi/engine/authorization/getid",
+                  "restapi/engine/authorization/update"
+                ]
+              }
             ]
           }
         ]
