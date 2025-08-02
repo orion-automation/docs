@@ -45,6 +45,13 @@
                   "restapi/engine/authorization/getid",
                   "restapi/engine/authorization/update"
                 ]
+              },
+              {
+                "group": "批处理",
+                "pages": [
+                  "restapi/engine/batch/get",
+                  "restapi/engine/batch/count"
+                ]
               }
             ]
           }
