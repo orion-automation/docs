@@ -220,7 +220,7 @@
           "Authorization"
         ],
         "summary": "Get Authorizations",
-        "description": "通过参数设置来查询获取授权列表.\n结果集的大小可以通过计数接口获得\n[Get Authorization Count](https://docs.eorion.com/restapi/engine/authorization/count/) method.",
+        "description": "通过参数设置来查询获取授权列表.\n结果集的大小可以通过计数接口获得\n[获取授权计数](https://docs.eorion.com/restapi/engine/authorization/count/).",
         "parameters": [
           {
             "name": "id",
@@ -228,7 +228,7 @@
             "schema": {
               "type": "string"
             },
-            "description": "Filter by the id of the authorization."
+            "description": "通过id筛选."
           },
           {
             "name": "type",
@@ -245,7 +245,7 @@
             "schema": {
               "type": "string"
             },
-            "description": "Filter by a comma-separated list of userIds."
+            "description": "通过userIds筛选，半角逗号分隔."
           },
           {
             "name": "groupIdIn",
@@ -253,7 +253,7 @@
             "schema": {
               "type": "string"
             },
-            "description": "Filter by a comma-separated list of groupIds."
+            "description": "通过groupIds筛选，半角逗号分隔."
           },
           {
             "name": "resourceType",
