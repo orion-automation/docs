@@ -122,7 +122,58 @@
                 "pages": [
                   "restapi/engine/engine/get"
                 ]
-              }
+              },
+              {
+                "group": "事件订阅",
+                "pages": [
+                  "restapi/engine/event-subscription/get",
+                  "restapi/engine/event-subscription/count"
+                ]
+              },
+              {
+                "group": "执行实例",
+                "pages": [
+                  "restapi/engine/execution/get",
+                  "restapi/engine/execution/get-via-post",
+                  "restapi/engine/execution/count",
+                  "restapi/engine/execution/count-via-post",
+                  "restapi/engine/execution/get-by-id",
+                  "restapi/engine/execution/create-incident",
+                  "restapi/engine/execution/get-local-execution-variables",
+                  "restapi/engine/execution/update-local-execution-variables",
+                  "restapi/engine/execution/delete-local-execution-variable",
+                  "restapi/engine/execution/get-local-execution-variable",
+                  "restapi/engine/execution/put-local-execution-variable",
+                  "restapi/engine/execution/get-local-execution-variable-binary",
+                  "restapi/engine/execution/post-local-execution-variable-binary",
+                  "restapi/engine/execution/get-message-subscription",
+                  "restapi/engine/execution/trigger-message-subscription",
+                  "restapi/engine/execution/trigger-execution"
+                ]
+              },
+              {
+                "group": "外部任务",
+                "pages": [
+                  "restapi/engine/external-task/get",
+                  "restapi/engine/external-task/get-via-post",
+                  "restapi/engine/external-task/count",
+                  "restapi/engine/external-task/count-via-post",
+                  "restapi/engine/external-task/fetch-lock",
+                  "restapi/engine/external-task/set-retries-sync",
+                  "restapi/engine/external-task/set-retries-async",
+                  "restapi/engine/external-task/get-topic-names",
+                  "restapi/engine/external-task/get-by-id",
+                  "restapi/engine/external-task/handle-bpmnerror",
+                  "restapi/engine/external-task/complete",
+                  "restapi/engine/external-task/get-error-details",
+                  "restapi/engine/external-task/extend-lock",
+                  "restapi/engine/external-task/handle-failure",
+                  "restapi/engine/external-task/lock",
+                  "restapi/engine/external-task/set-priority",
+                  "restapi/engine/external-task/set-retries",
+                  "restapi/engine/external-task/unlock"
+                ]
+              },
             ]
           }
         ]
