@@ -174,6 +174,21 @@
                   "restapi/engine/external-task/unlock"
                 ]
               },
+              {
+                "group": "组",
+                "pages": [
+                  "restapi/engine/group/get",
+                  "restapi/engine/group/get-via-post",
+                  "restapi/engine/group/count",
+                  "restapi/engine/group/count-via-post",
+                  "restapi/engine/group/create",
+                  "restapi/engine/group/delete",
+                  "restapi/engine/group/get-by-id",
+                  "restapi/engine/group/update",
+                  "restapi/engine/group/create-member",
+                  "restapi/engine/group/delete-member"
+                ]
+              }
             ]
           }
         ]
