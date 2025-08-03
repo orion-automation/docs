@@ -317,6 +317,37 @@
                   "restapi/engine/history-process-instance/get-by-id",
                   "restapi/engine/history-process-instance/delete-variable-instance"
                 ]
+              },
+              {
+                "group": "历史任务实例",
+                "pages": [
+                  "restapi/engine/history-task-instance/get",
+                  "restapi/engine/history-task-instance/get-via-post",
+                  "restapi/engine/history-task-instance/count",
+                  "restapi/engine/history-task-instance/count-via-post",
+                  "restapi/engine/history-task-instance/get-report"
+                ]
+              },
+              {
+                "group": "历史用户操作日志",
+                "pages": [
+                  "restapi/engine/history-user-operation-log/get",
+                  "restapi/engine/history-user-operation-log/count",
+                  "restapi/engine/history-user-operation-log/clear-annotation",
+                  "restapi/engine/history-user-operation-log/set-annotation"
+                ]
+              },
+              {
+                "group": "历史变量实例",
+                "pages": [
+                  "restapi/engine/history-variable-instance/get",
+                  "restapi/engine/history-variable-instance/get-via-post",
+                  "restapi/engine/history-variable-instance/count",
+                  "restapi/engine/history-variable-instance/count-via-post",
+                  "restapi/engine/history-variable-instance/delete",
+                  "restapi/engine/history-variable-instance/get-by-id",
+                  "restapi/engine/history-variable-instance/get-by-id-binary"
+                ]
               }
             ]
           }
