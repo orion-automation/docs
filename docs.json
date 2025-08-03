@@ -225,6 +225,23 @@
                   "restapi/engine/history-batch/delete",
                   "restapi/engine/history-batch/get-by-id"
                 ]
+              },
+              {
+                "group": "历史决策定义",
+                "pages": [
+                  "restapi/engine/history-decision-definition/get-report",
+                  "restapi/engine/history-decision-definition/count-report"
+                ]
+              },
+              {
+                "group": "历史决策实例",
+                "pages": [
+                  "restapi/engine/history-decision-instance/get",
+                  "restapi/engine/history-decision-instance/count",
+                  "restapi/engine/history-decision-instance/delete-async",
+                  "restapi/engine/history-decision-instance/set-removal-time-async",
+                  "restapi/engine/history-decision-instance/get-by-id"
+                ]
               }
             ]
           }
