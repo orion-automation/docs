@@ -283,6 +283,40 @@
                   "restapi/engine/history-incidents/get",
                   "restapi/engine/history-incidents/count"
                 ]
+              },
+              {
+                "group": "历史Job日志",
+                "pages": [
+                  "restapi/engine/history-job-log/get",
+                  "restapi/engine/history-job-log/get-via-post",
+                  "restapi/engine/history-job-log/count",
+                  "restapi/engine/history-job-log/count-via-post",
+                  "restapi/engine/history-job-log/get-by-id",
+                  "restapi/engine/history-job-log/get-exception-stacktrace"
+                ]
+              },
+              {
+                "group": "历史流程定义",
+                "pages": [
+                  "restapi/engine/history-process-denifition/get-report",
+                  "restapi/engine/history-process-denifition/count-report",
+                  "restapi/engine/history-process-denifition/get-statistics"
+                ]
+              },
+              {
+                "group": "历史流程实例",
+                "pages": [
+                  "restapi/engine/history-process-instance/get",
+                  "restapi/engine/history-process-instance/get-via-post",
+                  "restapi/engine/history-process-instance/count",
+                  "restapi/engine/history-process-instance/count-via-post",
+                  "restapi/engine/history-process-instance/delete-async-post",
+                  "restapi/engine/history-process-instance/get-duration-report",
+                  "restapi/engine/history-process-instance/set-removal-time-async",
+                  "restapi/engine/history-process-instance/delete",
+                  "restapi/engine/history-process-instance/get-by-id",
+                  "restapi/engine/history-process-instance/delete-variable-instance"
+                ]
               }
             ]
           }
