@@ -242,6 +242,22 @@
                   "restapi/engine/history-decision-instance/set-removal-time-async",
                   "restapi/engine/history-decision-instance/get-by-id"
                 ]
+              },
+              {
+                "group": "历史决策依赖",
+                "pages": [
+                  "restapi/engine/history-decision-requirement/get-statistics"
+                ]
+              },
+              {
+                "group": "历史明细",
+                "pages": [
+                  "restapi/engine/history-detail/get",
+                  "restapi/engine/history-detail/get-via-post",
+                  "restapi/engine/history-detail/count",
+                  "restapi/engine/history-detail/get-by-id",
+                  "restapi/engine/history-detail/get-by-id-binary"
+                ]
               }
             ]
           }
