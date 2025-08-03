@@ -258,6 +258,31 @@
                   "restapi/engine/history-detail/get-by-id",
                   "restapi/engine/history-detail/get-by-id-binary"
                 ]
+              },
+              {
+                "group": "历史外部任务日志",
+                "pages": [
+                  "restapi/engine/history-external-task-log/get",
+                  "restapi/engine/history-external-task-log/get-via-post",
+                  "restapi/engine/history-external-task-log/count",
+                  "restapi/engine/history-external-task-log/count-via-post",
+                  "restapi/engine/history-external-task-log/get-by-id",
+                  "restapi/engine/history-external-task-log/get-error-details"
+                ]
+              },
+              {
+                "group": "历史身份关联日志",
+                "pages": [
+                  "restapi/engine/history-identity-link-log/get",
+                  "restapi/engine/history-identity-link-log/count"
+                ]
+              },
+              {
+                "group": "历史故障",
+                "pages": [
+                  "restapi/engine/history-incidents/get",
+                  "restapi/engine/history-incidents/count"
+                ]
               }
             ]
           }
