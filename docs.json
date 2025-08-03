@@ -348,6 +348,149 @@
                   "restapi/engine/history-variable-instance/get-by-id",
                   "restapi/engine/history-variable-instance/get-by-id-binary"
                 ]
+              },
+              {
+                "group": "历史数据清理",
+                "pages": [
+                  "restapi/engine/history-cleanup/clean",
+                  "restapi/engine/history-cleanup/get-configuration",
+                  "restapi/engine/history-cleanup/find-history-jobs"
+                ]
+              },
+              {
+                "group": "身份",
+                "pages": [
+                  "restapi/engine/identity/get-users-groups",
+                  "restapi/engine/identity/get-password-policy",
+                  "restapi/engine/identity/validate-password",
+                  "restapi/engine/identity/verfiy-user"
+                ]
+              },
+              {
+                "group": "故障",
+                "pages": [
+                  "restapi/engine/incident/get",
+                  "restapi/engine/incident/count",
+                  "restapi/engine/incident/resolve",
+                  "restapi/engine/incident/get-by-id",
+                  "restapi/engine/incident/clear-annotation",
+                  "restapi/engine/incident/set-annotation"
+                ]
+              },
+              {
+                "group": "Job",
+                "pages": [
+                  "restapi/engine/job/get",
+                  "restapi/engine/job/get-via-post",
+                  "restapi/engine/job/count",
+                  "restapi/engine/job/count-via-post",
+                  "restapi/engine/job/set-retries-async",
+                  "restapi/engine/job/active-suspend-jobs",
+                  "restapi/engine/job/delete",
+                  "restapi/engine/job/get-by-id",
+                  "restapi/engine/job/set-due-date",
+                  "restapi/engine/job/recalculate-due-date",
+                  "restapi/engine/job/execute",
+                  "restapi/engine/job/set-priority",
+                  "restapi/engine/job/set-retries",
+                  "restapi/engine/job/get-exception-stacktrace",
+                  "restapi/engine/job/active-suspend-by-id"
+                ]
+              },
+              {
+                "group": "Job定义",
+                "pages": [
+                  "restapi/engine/job-definition/get",
+                  "restapi/engine/job-definition/get-via-post",
+                  "restapi/engine/job-definition/count",
+                  "restapi/engine/job-definition/count-via-post",
+                  "restapi/engine/job-definition/active-suspend-definitions",
+                  "restapi/engine/job-definition/get-by-id",
+                  "restapi/engine/job-definition/set-priority-by-id",
+                  "restapi/engine/job-definition/set-retries-by-id",
+                  "restapi/engine/job-definition/active-suspend-by-id"
+                ]
+              },
+              {
+                "group": "消息",
+                "pages": [
+                  "restapi/engine/message/correlate"
+                ]
+              },
+              {
+                "group": "指标",
+                "pages": [
+                  "restapi/engine/metrics/get",
+                  "restapi/engine/metrics/delete-task-worker",
+                  "restapi/engine/metrics/get-sum"
+                ]
+              },
+              {
+                "group": "迁移",
+                "pages": [
+                  "restapi/engine/migration/execute-plan",
+                  "restapi/engine/migration/execute-plan-async",
+                  "restapi/engine/migration/generate-plan",
+                  "restapi/engine/migration/validate-plan"
+                ]
+              },
+              {
+                "group": "流程修改",
+                "pages": [
+                  "restapi/engine/modification/execute",
+                  "restapi/engine/migration/execute-async"
+                ]
+              },
+              {
+                "group": "流程定义",
+                "pages": [
+                  "restapi/engine/process-definition/get",
+                  "restapi/engine/process-definition/count",
+                  "restapi/engine/process-definition/delete-by-key",
+                  "restapi/engine/process-definition/get-by-key",
+                  "restapi/engine/process-definition/get-deployed-start-form",
+                  "restapi/engine/process-definition/get-diagram",
+                  "restapi/engine/process-definition/get-start-form-variables",
+                  "restapi/engine/process-definition/update-httl",
+                  "restapi/engine/process-definition/get-rendered-start-form",
+                  "restapi/engine/process-definition/start-instance",
+                  "restapi/engine/process-definition/get-start-formkey",
+                  "restapi/engine/process-definition/get-activity-instance-statistics",
+                  "restapi/engine/process-definition/submit-start-form",
+                  "restapi/engine/process-definition/active-suspend-by-latest",
+                  "restapi/engine/process-definition/delelte-by-key-tenant",
+                  "restapi/engine/process-definition/get-by-key-tenant",
+                  "restapi/engine/process-definition/get-deployed-start-form-tenant",
+                  "restapi/engine/process-definition/get-diagram-tenant",
+                  "restapi/engine/process-definition/get-start-form-variables-tenant",
+                  "restapi/engine/process-definition/update-httl-tenant",
+                  "restapi/engine/process-definition/get-rendered-start-form-tenant",
+                  "restapi/engine/process-definition/start-instance-tenant",
+                  "restapi/engine/process-definition/get-start-formkey-tenant",
+                  "restapi/engine/process-definition/get-activity-instance-statistics-tenant",
+                  "restapi/engine/process-definition/submit-start-form-tenant",
+                  "restapi/engine/process-definition/active-suspend-by-latest-tenant",
+                  "restapi/engine/process-definition/get-xml-latest",
+                  "restapi/engine/process-definition/get-xml-latest-tenant",
+                  "restapi/engine/process-definition/get-process-instance-statistics",
+                  "restapi/engine/process-definition/active-suspend-by-key",
+                  "restapi/engine/process-definition/delete",
+                  "restapi/engine/process-definition/get-by-id",
+                  "restapi/engine/process-definition/get-deployed-start-form-by-id",
+                  "restapi/engine/process-definition/get-diagram-by-id",
+                  "restapi/engine/process-definition/get-start-form-variables-by-id",
+                  "restapi/engine/process-definition/update-httl-by-id",
+                  "restapi/engine/process-definition/get-rendered-start-form-by-id",
+                  "restapi/engine/process-definition/restart-process-instance",
+                  "restapi/engine/process-definition/restart-process-instance-async",
+                  "restapi/engine/process-definition/start-instance-by-id",
+                  "restapi/engine/process-definition/get-start-fromkey-by-id",
+                  "restapi/engine/process-definition/get-static-called-process-definition",
+                  "restapi/engine/process-definition/get-activity-instance-statistics",
+                  "restapi/engine/process-definition/submit-start-form-by-id",
+                  "restapi/engine/process-definition/active-suspend-by-id",
+                  "restapi/engine/process-definition/get-xml-by-id"
+                ]
               }
             ]
           }
