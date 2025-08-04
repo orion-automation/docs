@@ -660,6 +660,24 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "最佳实践",
+        "groups": [
+          {
+            "group": "入门",
+            "pages": [
+              {
+                "group": "欢迎使用ORION",
+                "pages": [
+                  "getstarted",
+                  "capabilities",
+                  "helloorion"
+                ]
+              }
+            ]
+          }
+        ]
       }
     ],
     "global": {
