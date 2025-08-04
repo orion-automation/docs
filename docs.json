@@ -561,6 +561,101 @@
                   "restapi/engine/task/submit-form",
                   "restapi/engine/task/unclaim"
                 ]
+              },
+              {
+                "group": "任务附件",
+                "pages": [
+                  "restapi/engine/task-attachment/get",
+                  "restapi/engine/task-attachment/create",
+                  "restapi/engine/task-attachment/delete",
+                  "restapi/engine/task-attachment/get-by-id",
+                  "restapi/engine/task-attachment/get-by-id-binary"
+                ]
+              },
+              {
+                "group": "任务评论",
+                "pages": [
+                  "restapi/engine/task-comment/get",
+                  "restapi/engine/task-comment/create",
+                  "restapi/engine/task-comment/get-by-id"
+                ]
+              },
+              {
+                "group": "任务身份关联",
+                "pages": [
+                  "restapi/engine/task-indentity/get",
+                  "restapi/engine/task-indentity/add",
+                  "restapi/engine/task-indentity/delete"
+                ]
+              },
+              {
+                "group": "任务本地变量",
+                "pages": [
+                  "restapi/engine/task-local-variable/get",
+                  "restapi/engine/task-local-variable/update-delete-variables",
+                  "restapi/engine/task-local-variable/delete",
+                  "restapi/engine/task-local-variable/get-by-id",
+                  "restapi/engine/task-local-variable/update-by-id",
+                  "restapi/engine/task-local-variable/get-by-id-binary",
+                  "restapi/engine/task-local-variable/update-by-id-binary"
+                ]
+              },
+              {
+                "group": "任务变量",
+                "pages": [
+                  "restapi/engine/task-variable/get",
+                  "restapi/engine/task-variable/update-delete-variables",
+                  "restapi/engine/task-variable/delete",
+                  "restapi/engine/task-variable/get-by-id",
+                  "restapi/engine/task-variable/update-by-id",
+                  "restapi/engine/task-variable/get-by-id-binary",
+                  "restapi/engine/task-variable/update-by-id-binary"
+                ]
+              },
+              {
+                "group": "租户",
+                "pages": [
+                  "restapi/engine/tenant/get",
+                  "restapi/engine/tenant/count",
+                  "restapi/engine/tenant/create",
+                  "restapi/engine/tenant/delete",
+                  "restapi/engine/tenant/get-by-id",
+                  "restapi/engine/tenant/update",
+                  "restapi/engine/tenant/create-group-membership",
+                  "restapi/engine/tenant/delete-group-membership",
+                  "restapi/engine/tenant/create-user-membership",
+                  "restapi/engine/tenant/delete-user-membership"
+                ]
+              },
+              {
+                "group": "用户",
+                "pages": [
+                  "restapi/engine/user/get",
+                  "restapi/engine/user/count",
+                  "restapi/engine/user/create",
+                  "restapi/engine/user/delete",
+                  "restapi/engine/user/get-profile",
+                  "restapi/engine/user/update-credentials",
+                  "restapi/engine/user/update-profile",
+                  "restapi/engine/user/unlock"
+                ]
+              },
+              {
+                "group": "变量实例",
+                "pages": [
+                  "restapi/engine/variable-instance/get",
+                  "restapi/engine/variable-instance/get-via-post",
+                  "restapi/engine/variable-instance/count",
+                  "restapi/engine/variable-instance/count-via-post",
+                  "restapi/engine/variable-instance/get-by-id",
+                  "restapi/engine/variable-instance/get-by-id-binary"
+                ]
+              },
+              {
+                "group": "API版本",
+                "pages": [
+                  "restapi/engine/version/get"
+                ]
               }
             ]
           }
