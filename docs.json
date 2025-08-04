@@ -665,14 +665,12 @@
         "tab": "最佳实践",
         "groups": [
           {
-            "group": "入门",
+            "group": "流程建模",
             "pages": [
               {
-                "group": "欢迎使用ORION",
+                "group": "BPMN",
                 "pages": [
-                  "getstarted",
-                  "capabilities",
-                  "helloorion"
+                  "quickstart"
                 ]
               }
             ]
