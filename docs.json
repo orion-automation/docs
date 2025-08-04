@@ -521,6 +521,46 @@
                   "restapi/engine/process-instance/get-process-variable-binary",
                   "restapi/engine/process-instance/update-process-variable-binary"
                 ]
+              },
+              {
+                "group": "信号",
+                "pages": [
+                  "restapi/engine/signal/event"
+                ]
+              },
+              {
+                "group": "数据库Schema",
+                "pages": [
+                  "restapi/engine/schema/get",
+                  "restapi/engine/schema/get-via-count"
+                ]
+              },
+              {
+                "group": "任务",
+                "pages": [
+                  "restapi/engine/task/get",
+                  "restapi/engine/task/get-via-post",
+                  "restapi/engine/task/count",
+                  "restapi/engine/task/get-via-post",
+                  "restapi/engine/task/create",
+                  "restapi/engine/task/get-count-by-candidate-group",
+                  "restapi/engine/task/delete",
+                  "restapi/engine/task/get-by-id",
+                  "restapi/engine/task/update",
+                  "restapi/engine/task/set-assignee",
+                  "restapi/engine/task/handle-bpmn-error",
+                  "restapi/engine/task/handle-bpmn-escalation",
+                  "restapi/engine/task/claim",
+                  "restapi/engine/task/complete",
+                  "restapi/engine/task/delegate",
+                  "restapi/engine/task/get-deployed-form",
+                  "restapi/engine/task/get-form-key",
+                  "restapi/engine/task/get-task-form-variables",
+                  "restapi/engine/task/get-rendered-form",
+                  "restapi/engine/task/resolve",
+                  "restapi/engine/task/submit-form",
+                  "restapi/engine/task/unclaim"
+                ]
               }
             ]
           }
