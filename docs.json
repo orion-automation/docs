@@ -491,6 +491,36 @@
                   "restapi/engine/process-definition/active-suspend-by-id",
                   "restapi/engine/process-definition/get-xml-by-id"
                 ]
+              },
+              {
+                "group": "流程实例",
+                "pages": [
+                  "restapi/engine/process-instance/get",
+                  "restapi/engine/process-instance/get-via-post",
+                  "restapi/engine/process-instance/count",
+                  "restapi/engine/process-instance/count-via-post",
+                  "restapi/engine/process-instance/delete-async",
+                  "restapi/engine/process-instance/delete-async-query-based",
+                  "restapi/engine/process-instance/set-job-retries-async",
+                  "restapi/engine/process-instance/set-job-retries-async-query-based",
+                  "restapi/engine/process-instance/correlate-message-async",
+                  "restapi/engine/process-instance/active-suspend-group",
+                  "restapi/engine/process-instance/active-suspend-batch",
+                  "restapi/engine/process-instance/set-variables-async",
+                  "restapi/engine/process-instance/delete",
+                  "restapi/engine/process-instance/get-by-id",
+                  "restapi/engine/process-instance/get-activity-instance",
+                  "restapi/engine/process-instance/get-comments",
+                  "restapi/engine/process-instance/modify-process-instance-execution-state",
+                  "restapi/engine/process-instance/modify-process-instance-execution-state-async",
+                  "restapi/engine/process-instance/active-suspend-by-id",
+                  "restapi/engine/process-instance/get-variables",
+                  "restapi/engine/process-instance/update-delete-variables",
+                  "restapi/engine/process-instance/delete-variables",
+                  "restapi/engine/process-instance/update-variable",
+                  "restapi/engine/process-instance/get-process-variable-binary",
+                  "restapi/engine/process-instance/update-process-variable-binary"
+                ]
               }
             ]
           }
