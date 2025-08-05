@@ -54,7 +54,7 @@
                   "restapi/engine/batch/statistics",
                   "restapi/engine/batch/countstatistics",
                   "restapi/engine/batch/delete",
-                  "restapi/engine/batch/getid",
+                  "restapi/engine/batch/get-by-id",
                   "restapi/engine/batch/activesuspend"
                 ]
               },
