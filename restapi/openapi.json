@@ -425,7 +425,7 @@
           "Authorization"
         ],
         "summary": "Perform an Authorization Check",
-        "description": "Performs an authorization check for the currently authenticated user.",
+        "description": "对当前已认证用户执行授权检查。",
         "parameters": [
           {
             "name": "permissionName",
