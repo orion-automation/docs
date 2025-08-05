@@ -545,7 +545,7 @@
           "Authorization"
         ],
         "summary": "Get Authorization Count",
-        "description": "Queries for authorizations using a list of parameters and retrieves the count.",
+        "description": "根据一组参数查询授权信息，并返回结果数量。",
         "parameters": [
           {
             "name": "id",
@@ -638,7 +638,7 @@
           "Authorization"
         ],
         "summary": "Create a New Authorization",
-        "description": "Creates a new authorization.",
+        "description": "创建一个授权记录",
         "requestBody": {
           "content": {
             "application/json": {
@@ -752,7 +752,7 @@
           "Authorization"
         ],
         "summary": "Delete Authorization",
-        "description": "Deletes an authorization by id.",
+        "description": "根据id删除授权记录。",
         "parameters": [
           {
             "name": "id",
@@ -796,7 +796,7 @@
           "Authorization"
         ],
         "summary": "Get Authorization",
-        "description": "Retrieves an authorization by id.",
+        "description": "根据id获取授权记录。",
         "parameters": [
           {
             "name": "id",
@@ -913,7 +913,7 @@
           "Authorization"
         ],
         "summary": "Update an Authorization",
-        "description": "Updates an authorization by id.",
+        "description": "根据id更新授权记录。",
         "parameters": [
           {
             "name": "id",
