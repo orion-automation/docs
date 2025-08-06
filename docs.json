@@ -684,6 +684,15 @@
                       "best-practice/manual-task",
                       "best-practice/markers"
                     ]
+                  },
+                  {
+                    "group": "网关",
+                    "pages": [
+                      "best-practice/xor-gateway",
+                      "best-practice/parallel-gateway",
+                      "best-practice/inclusive-gate",
+                      "best-practice/event-based-gateway"
+                    ]
                   }
                 ]
               }
