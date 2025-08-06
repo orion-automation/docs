@@ -673,11 +673,18 @@
                 "pages": [
                   "best-practice/bpmn",
                   {
-                "group": "任务",
-                "pages": [
-                  "restapi/engine/version/get"
-                ]
-              }
+                    "group": "任务",
+                    "pages": [
+                      "best-practice/service-task",
+                      "best-practice/send-task",
+                      "best-practice/user-task",
+                      "best-practice/business-rule-task",
+                      "best-practice/script-task",
+                      "best-practice/receive-task",
+                      "best-practice/manual-task",
+                      "best-practice/markers"
+                    ]
+                  }
                 ]
               }
             ]
