@@ -671,7 +671,7 @@
               {
                 "group": "BPMN",
                 "pages": [
-                  "quickstart"
+                  "best-practice/bpmn"
                 ]
               }
             ]
