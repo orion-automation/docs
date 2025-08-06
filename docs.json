@@ -663,7 +663,7 @@
         ]
       },
       {
-        "tab": "最佳实践",
+        "tab": "参考",
         "groups": [
           {
             "group": "流程建模",
@@ -675,23 +675,54 @@
                   {
                     "group": "任务",
                     "pages": [
-                      "best-practice/service-task",
-                      "best-practice/send-task",
-                      "best-practice/user-task",
-                      "best-practice/business-rule-task",
-                      "best-practice/script-task",
-                      "best-practice/receive-task",
-                      "best-practice/manual-task",
-                      "best-practice/markers"
+                      "reference/service-task",
+                      "reference/send-task",
+                      "reference/user-task",
+                      "reference/business-rule-task",
+                      "reference/script-task",
+                      "reference/receive-task",
+                      "reference/manual-task",
+                      "reference/markers"
                     ]
                   },
                   {
                     "group": "网关",
                     "pages": [
-                      "best-practice/xor-gateway",
-                      "best-practice/parallel-gateway",
-                      "best-practice/inclusive-gate",
-                      "best-practice/event-based-gateway"
+                      "reference/xor-gateway",
+                      "reference/parallel-gateway",
+                      "reference/inclusive-gate",
+                      "reference/event-based-gateway"
+                    ]
+                  },
+                  {
+                    "group": "事件",
+                    "pages": [
+                      "reference/start-event",
+                      "reference/none-event",
+                      "reference/message-event",
+                      "reference/timer-event",
+                      "reference/error-event",
+                      "reference/escalation-event",
+                      "reference/signal-event",
+                      "reference/cancel-compensation-event",
+                      "reference/conditional-event",
+                      "reference/link-event",
+                      "reference/terminate-event"
+                    ]
+                  },
+                  {
+                    "group": "子流程",
+                    "pages": [
+                      "reference/embedded-subprocess",
+                      "reference/call-activity",
+                      "reference/event-subprocess",
+                      "reference/transaction-subprocess"
+                    ]
+                  },
+                  {
+                    "group": "扩展属性",
+                    "pages": [
+                      "reference/extensions"
                     ]
                   }
                 ]
