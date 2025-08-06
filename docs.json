@@ -880,12 +880,9 @@
         "tab": "最佳实践",
         "groups": [
           {
-            "group": "项目",
+            "group": "建模",
             "pages": [
-              "getstarted",
-              "capabilities",
-              "dockdeploy",
-              "helloorion"
+              "best-practice/bpmn"
             ]
           }
         ]
