@@ -750,6 +750,33 @@
                 ]
               }
             ]
+          },
+          {
+            "group": "SPIN数据处理",
+            "pages": [
+              "reference/spin",
+              {
+                "group": "XML",
+                "pages": [
+                  "reference/spin/read-xml",
+                  "reference/spin/manipulating-xml",
+                  "reference/spin/writing-xml",
+                  "reference/spin/query-xml",
+                  "reference/spin/mapping-xml",
+                  "reference/spin/config-xml-handling"
+                ]
+              },
+              {
+                "group": "JSON",
+                "pages": [
+                  "reference/spin/read-json",
+                  "reference/spin/writing-json",
+                  "reference/spin/query-json",
+                  "reference/spin/mapping-json",
+                  "reference/spin/config-xml-handling"
+                ]
+              }
+            ]
           }
         ]
       }
