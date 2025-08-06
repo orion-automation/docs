@@ -882,7 +882,13 @@
           {
             "group": "建模",
             "pages": [
-              "best-practice/bpmn"
+              "best-practice/modeling",
+              "best-practice/invoke-services",
+              "best-practice/transaction-handling",
+              "best-practice/testing-process",
+              "best-practice/routing-events",
+              "best-practice/human-task-lifecycle",
+              "best-practice/agentic-orchestration"
             ]
           }
         ]
