@@ -33,7 +33,7 @@
         "tab": "API",
         "groups": [
           {
-            "group": "引擎接口",
+            "group": "REST API",
             "pages": [
               {
                 "group": "授权",
@@ -658,6 +658,12 @@
                   "restapi/engine/version/get"
                 ]
               }
+            ]
+          },
+          {
+            "group": "Javadoc",
+            "pages": [
+              "reference/javadoc"
             ]
           }
         ]
