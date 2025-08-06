@@ -671,7 +671,13 @@
               {
                 "group": "BPMN",
                 "pages": [
-                  "best-practice/bpmn"
+                  "best-practice/bpmn",
+                  {
+                "group": "任务",
+                "pages": [
+                  "restapi/engine/version/get"
+                ]
+              }
                 ]
               }
             ]
