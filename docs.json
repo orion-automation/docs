@@ -875,6 +875,20 @@
             ]
           }
         ]
+      },
+      {
+        "tab": "最佳实践",
+        "groups": [
+          {
+            "group": "项目",
+            "pages": [
+              "getstarted",
+              "capabilities",
+              "dockdeploy",
+              "helloorion"
+            ]
+          }
+        ]
       }
     ],
     "global": {
