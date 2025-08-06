@@ -26,6 +26,67 @@
                 ]
               }
             ]
+          },
+          {
+            "group": "使用",
+            "pages": [
+              {
+                "group": "设计",
+                "pages": [
+                  "guide/design/process",
+                  "guide/design/dmn",
+                  "guide/design/form",
+                  "guide/design/page",
+                  "guide/design/component/connector",
+                  "guide/design/component/application",
+                  "guide/design/component/other",
+                  "guide/design/agent"
+                ]
+              },
+              {
+                "group": "自动化",
+                "pages": [
+                  "guide/automation/process",
+                  "guide/automation/decision",
+                  "guide/automation/batch",
+                  "guide/automation/deployment"
+                ]
+              },
+              {
+                "group": "应用",
+                "pages": [
+                  "guide/application/application",
+                  "guide/application/task",
+                  "guide/application/mobile",
+                  "guide/application/AI"
+                ]
+              },
+              {
+                "group": "分析",
+                "pages": [
+                  "guide/optimize/overview",
+                  "guide/optimize/link-to-metabase",
+                  "guide/optimize/process-deepdive"
+                ]
+              },
+              {
+                "group": "对象",
+                "pages": [
+                  "guide/object/overview",
+                  "guide/optimize/link-to-nocodb"
+                ]
+              },
+              {
+                "group": "管理",
+                "pages": [
+                  "guide/admin/user",
+                  "guide/admin/group",
+                  "guide/admin/tenant",
+                  "guide/admin/authorization",
+                  "guide/admin/other"
+                ]
+              }
+            ]
           }
         ]
       },
