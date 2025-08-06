@@ -11,7 +11,7 @@
   "navigation": {
     "tabs": [
       {
-        "tab": "用户指导",
+        "tab": "文档",
         "groups": [
           {
             "group": "入门",
@@ -21,8 +21,8 @@
                 "pages": [
                   "getstarted",
                   "capabilities",
-                  "helloorion",
-                  "dockdeploy"
+                  "dockdeploy",
+                  "helloorion"
                 ]
               }
             ]
