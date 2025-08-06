@@ -107,811 +107,812 @@
                   "guide/installation/shared-engine",
                   "guide/installation/spring-boot",
                   "guide/installation/docker"
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "tab": "API",
-          "groups": [
-            {
-              "group": "REST API",
-              "pages": [
-                {
-                  "group": "授权",
-                  "pages": [
-                    "restapi/engine/authorization/get",
-                    "restapi/engine/authorization/check",
-                    "restapi/engine/authorization/count",
-                    "restapi/engine/authorization/create",
-                    "restapi/engine/authorization/delete",
-                    "restapi/engine/authorization/getid",
-                    "restapi/engine/authorization/update"
-                  ]
-                },
-                {
-                  "group": "批处理",
-                  "pages": [
-                    "restapi/engine/batch/get",
-                    "restapi/engine/batch/count",
-                    "restapi/engine/batch/statistics",
-                    "restapi/engine/batch/countstatistics",
-                    "restapi/engine/batch/delete",
-                    "restapi/engine/batch/get-by-id",
-                    "restapi/engine/batch/activesuspend"
-                  ]
-                },
-                {
-                  "group": "条件",
-                  "pages": [
-                    "restapi/engine/condition/evaluate"
-                  ]
-                },
-                {
-                  "group": "决策定义",
-                  "pages": [
-                    "restapi/engine/decision-definition/get",
-                    "restapi/engine/decision-definition/count",
-                    "restapi/engine/decision-definition/get-by-key",
-                    "restapi/engine/decision-definition/get-diagram-by-key",
-                    "restapi/engine/decision-definition/evaluate-by-key",
-                    "restapi/engine/decision-definition/update-ttl-by-key",
-                    "restapi/engine/decision-definition/get-by-tenant-and-key",
-                    "restapi/engine/decision-definition/get-diagram-by-tenant-and-key",
-                    "restapi/engine/decision-definition/evaluate-by-tenant-and-key",
-                    "restapi/engine/decision-definition/update-ttl-by-tenant-and-key",
-                    "restapi/engine/decision-definition/get-xml-by-tenant-and-key",
-                    "restapi/engine/decision-definition/get-xml-by-key",
-                    "restapi/engine/decision-definition/get-by-id",
-                    "restapi/engine/decision-definition/get-diagram-by-id",
-                    "restapi/engine/decision-definition/evaluate-by-id",
-                    "restapi/engine/decision-definition/update-ttl-by-id",
-                    "restapi/engine/decision-definition/get-xml-by-id"
-                  ]
-                },
-                {
-                  "group": "决策依赖定义",
-                  "pages": [
-                    "restapi/engine/decision-requirements-definition/get",
-                    "restapi/engine/decision-requirements-definition/count",
-                    "restapi/engine/decision-requirements-definition/get-by-key",
-                    "restapi/engine/decision-requirements-definition/get-diagram-by-key",
-                    "restapi/engine/decision-requirements-definition/get-by-tenant-and-key",
-                    "restapi/engine/decision-requirements-definition/get-diagram-by-tenant-and-key",
-                    "restapi/engine/decision-requirements-definition/get-xml-by-tenant-and-key",
-                    "restapi/engine/decision-requirements-definition/get-xml-by-key",
-                    "restapi/engine/decision-requirements-definition/get-by-id",
-                    "restapi/engine/decision-requirements-definition/get-diagram-by-id",
-                    "restapi/engine/decision-requirements-definition/get-xml-by-id"
-                  ]
-                },
-                {
-                  "group": "部署",
-                  "pages": [
-                    "restapi/engine/deployment/get",
-                    "restapi/engine/deployment/count",
-                    "restapi/engine/deployment/create",
-                    "restapi/engine/deployment/get-deployments",
-                    "restapi/engine/deployment/delete",
-                    "restapi/engine/deployment/get-by-id",
-                    "restapi/engine/deployment/redeploy",
-                    "restapi/engine/deployment/get-resources",
-                    "restapi/engine/deployment/get-resource-by-id",
-                    "restapi/engine/deployment/get-resource-binary"
-                  ]
-                },
-                {
-                  "group": "引擎",
-                  "pages": [
-                    "restapi/engine/engine/get"
-                  ]
-                },
-                {
-                  "group": "事件订阅",
-                  "pages": [
-                    "restapi/engine/event-subscription/get",
-                    "restapi/engine/event-subscription/count"
-                  ]
-                },
-                {
-                  "group": "执行实例",
-                  "pages": [
-                    "restapi/engine/execution/get",
-                    "restapi/engine/execution/get-via-post",
-                    "restapi/engine/execution/count",
-                    "restapi/engine/execution/count-via-post",
-                    "restapi/engine/execution/get-by-id",
-                    "restapi/engine/execution/create-incident",
-                    "restapi/engine/execution/get-local-execution-variables",
-                    "restapi/engine/execution/update-local-execution-variables",
-                    "restapi/engine/execution/delete-local-execution-variable",
-                    "restapi/engine/execution/get-local-execution-variable",
-                    "restapi/engine/execution/put-local-execution-variable",
-                    "restapi/engine/execution/get-local-execution-variable-binary",
-                    "restapi/engine/execution/post-local-execution-variable-binary",
-                    "restapi/engine/execution/get-message-subscription",
-                    "restapi/engine/execution/trigger-message-subscription",
-                    "restapi/engine/execution/trigger-execution"
-                  ]
-                },
-                {
-                  "group": "外部任务",
-                  "pages": [
-                    "restapi/engine/external-task/get",
-                    "restapi/engine/external-task/get-via-post",
-                    "restapi/engine/external-task/count",
-                    "restapi/engine/external-task/count-via-post",
-                    "restapi/engine/external-task/fetch-lock",
-                    "restapi/engine/external-task/set-retries-sync",
-                    "restapi/engine/external-task/set-retries-async",
-                    "restapi/engine/external-task/get-topic-names",
-                    "restapi/engine/external-task/get-by-id",
-                    "restapi/engine/external-task/handle-bpmnerror",
-                    "restapi/engine/external-task/complete",
-                    "restapi/engine/external-task/get-error-details",
-                    "restapi/engine/external-task/extend-lock",
-                    "restapi/engine/external-task/handle-failure",
-                    "restapi/engine/external-task/lock",
-                    "restapi/engine/external-task/set-priority",
-                    "restapi/engine/external-task/set-retries",
-                    "restapi/engine/external-task/unlock"
-                  ]
-                },
-                {
-                  "group": "组",
-                  "pages": [
-                    "restapi/engine/group/get",
-                    "restapi/engine/group/get-via-post",
-                    "restapi/engine/group/count",
-                    "restapi/engine/group/count-via-post",
-                    "restapi/engine/group/create",
-                    "restapi/engine/group/delete",
-                    "restapi/engine/group/get-by-id",
-                    "restapi/engine/group/update",
-                    "restapi/engine/group/create-member",
-                    "restapi/engine/group/delete-member"
-                  ]
-                },
-                {
-                  "group": "租户",
-                  "pages": [
-                    "restapi/engine/tenant/get",
-                    "restapi/engine/tenant/count",
-                    "restapi/engine/tenant/create",
-                    "restapi/engine/tenant/delete",
-                    "restapi/engine/tenant/get-by-id",
-                    "restapi/engine/tenant/update",
-                    "restapi/engine/tenant/create-group-member",
-                    "restapi/engine/tenant/create-user-member",
-                    "restapi/engine/tenant/delete-group-member",
-                    "restapi/engine/tenant/delete-user-member"
-                  ]
-                },
-                {
-                  "group": "历史活动实例",
-                  "pages": [
-                    "restapi/engine/history-activity-instance/get",
-                    "restapi/engine/history-activity-instance/get-via-post",
-                    "restapi/engine/history-activity-instance/count",
-                    "restapi/engine/history-activity-instance/count-via-post",
-                    "restapi/engine/history-activity-instance/get-by-id"
-                  ]
-                },
-                {
-                  "group": "历史批处理",
-                  "pages": [
-                    "restapi/engine/history-batch/get",
-                    "restapi/engine/history-batch/get-cleanable-report",
-                    "restapi/engine/history-batch/count-cleanable-report",
-                    "restapi/engine/history-batch/count",
-                    "restapi/engine/history-batch/set-removal-time-async",
-                    "restapi/engine/history-batch/delete",
-                    "restapi/engine/history-batch/get-by-id"
-                  ]
-                },
-                {
-                  "group": "历史决策定义",
-                  "pages": [
-                    "restapi/engine/history-decision-definition/get-report",
-                    "restapi/engine/history-decision-definition/count-report"
-                  ]
-                },
-                {
-                  "group": "历史决策实例",
-                  "pages": [
-                    "restapi/engine/history-decision-instance/get",
-                    "restapi/engine/history-decision-instance/count",
-                    "restapi/engine/history-decision-instance/delete-async",
-                    "restapi/engine/history-decision-instance/set-removal-time-async",
-                    "restapi/engine/history-decision-instance/get-by-id"
-                  ]
-                },
-                {
-                  "group": "历史决策依赖",
-                  "pages": [
-                    "restapi/engine/history-decision-requirement/get-statistics"
-                  ]
-                },
-                {
-                  "group": "历史明细",
-                  "pages": [
-                    "restapi/engine/history-detail/get",
-                    "restapi/engine/history-detail/get-via-post",
-                    "restapi/engine/history-detail/count",
-                    "restapi/engine/history-detail/get-by-id",
-                    "restapi/engine/history-detail/get-by-id-binary"
-                  ]
-                },
-                {
-                  "group": "历史外部任务日志",
-                  "pages": [
-                    "restapi/engine/history-external-task-log/get",
-                    "restapi/engine/history-external-task-log/get-via-post",
-                    "restapi/engine/history-external-task-log/count",
-                    "restapi/engine/history-external-task-log/count-via-post",
-                    "restapi/engine/history-external-task-log/get-by-id",
-                    "restapi/engine/history-external-task-log/get-error-details"
-                  ]
-                },
-                {
-                  "group": "历史身份关联日志",
-                  "pages": [
-                    "restapi/engine/history-identity-link-log/get",
-                    "restapi/engine/history-identity-link-log/count"
-                  ]
-                },
-                {
-                  "group": "历史故障",
-                  "pages": [
-                    "restapi/engine/history-incidents/get",
-                    "restapi/engine/history-incidents/count"
-                  ]
-                },
-                {
-                  "group": "历史Job日志",
-                  "pages": [
-                    "restapi/engine/history-job-log/get",
-                    "restapi/engine/history-job-log/get-via-post",
-                    "restapi/engine/history-job-log/count",
-                    "restapi/engine/history-job-log/count-via-post",
-                    "restapi/engine/history-job-log/get-by-id",
-                    "restapi/engine/history-job-log/get-exception-stacktrace"
-                  ]
-                },
-                {
-                  "group": "历史流程定义",
-                  "pages": [
-                    "restapi/engine/history-process-denifition/get-report",
-                    "restapi/engine/history-process-denifition/count-report",
-                    "restapi/engine/history-process-denifition/get-statistics"
-                  ]
-                },
-                {
-                  "group": "历史流程实例",
-                  "pages": [
-                    "restapi/engine/history-process-instance/get",
-                    "restapi/engine/history-process-instance/get-via-post",
-                    "restapi/engine/history-process-instance/count",
-                    "restapi/engine/history-process-instance/count-via-post",
-                    "restapi/engine/history-process-instance/delete-async-post",
-                    "restapi/engine/history-process-instance/get-duration-report",
-                    "restapi/engine/history-process-instance/set-removal-time-async",
-                    "restapi/engine/history-process-instance/delete",
-                    "restapi/engine/history-process-instance/get-by-id",
-                    "restapi/engine/history-process-instance/delete-variable-instance"
-                  ]
-                },
-                {
-                  "group": "历史任务实例",
-                  "pages": [
-                    "restapi/engine/history-task-instance/get",
-                    "restapi/engine/history-task-instance/get-via-post",
-                    "restapi/engine/history-task-instance/count",
-                    "restapi/engine/history-task-instance/count-via-post",
-                    "restapi/engine/history-task-instance/get-report"
-                  ]
-                },
-                {
-                  "group": "历史用户操作日志",
-                  "pages": [
-                    "restapi/engine/history-user-operation-log/get",
-                    "restapi/engine/history-user-operation-log/count",
-                    "restapi/engine/history-user-operation-log/clear-annotation",
-                    "restapi/engine/history-user-operation-log/set-annotation"
-                  ]
-                },
-                {
-                  "group": "历史变量实例",
-                  "pages": [
-                    "restapi/engine/history-variable-instance/get",
-                    "restapi/engine/history-variable-instance/get-via-post",
-                    "restapi/engine/history-variable-instance/count",
-                    "restapi/engine/history-variable-instance/count-via-post",
-                    "restapi/engine/history-variable-instance/delete",
-                    "restapi/engine/history-variable-instance/get-by-id",
-                    "restapi/engine/history-variable-instance/get-by-id-binary"
-                  ]
-                },
-                {
-                  "group": "历史数据清理",
-                  "pages": [
-                    "restapi/engine/history-cleanup/clean",
-                    "restapi/engine/history-cleanup/get-configuration",
-                    "restapi/engine/history-cleanup/find-history-jobs"
-                  ]
-                },
-                {
-                  "group": "身份",
-                  "pages": [
-                    "restapi/engine/identity/get-users-groups",
-                    "restapi/engine/identity/get-password-policy",
-                    "restapi/engine/identity/validate-password",
-                    "restapi/engine/identity/verfiy-user"
-                  ]
-                },
-                {
-                  "group": "故障",
-                  "pages": [
-                    "restapi/engine/incident/get",
-                    "restapi/engine/incident/count",
-                    "restapi/engine/incident/resolve",
-                    "restapi/engine/incident/get-by-id",
-                    "restapi/engine/incident/clear-annotation",
-                    "restapi/engine/incident/set-annotation"
-                  ]
-                },
-                {
-                  "group": "Job",
-                  "pages": [
-                    "restapi/engine/job/get",
-                    "restapi/engine/job/get-via-post",
-                    "restapi/engine/job/count",
-                    "restapi/engine/job/count-via-post",
-                    "restapi/engine/job/set-retries-async",
-                    "restapi/engine/job/active-suspend-jobs",
-                    "restapi/engine/job/delete",
-                    "restapi/engine/job/get-by-id",
-                    "restapi/engine/job/set-due-date",
-                    "restapi/engine/job/recalculate-due-date",
-                    "restapi/engine/job/execute",
-                    "restapi/engine/job/set-priority",
-                    "restapi/engine/job/set-retries",
-                    "restapi/engine/job/get-exception-stacktrace",
-                    "restapi/engine/job/active-suspend-by-id"
-                  ]
-                },
-                {
-                  "group": "Job定义",
-                  "pages": [
-                    "restapi/engine/job-definition/get",
-                    "restapi/engine/job-definition/get-via-post",
-                    "restapi/engine/job-definition/count",
-                    "restapi/engine/job-definition/count-via-post",
-                    "restapi/engine/job-definition/active-suspend-definitions",
-                    "restapi/engine/job-definition/get-by-id",
-                    "restapi/engine/job-definition/set-priority-by-id",
-                    "restapi/engine/job-definition/set-retries-by-id",
-                    "restapi/engine/job-definition/active-suspend-by-id"
-                  ]
-                },
-                {
-                  "group": "消息",
-                  "pages": [
-                    "restapi/engine/message/correlate"
-                  ]
-                },
-                {
-                  "group": "指标",
-                  "pages": [
-                    "restapi/engine/metrics/get",
-                    "restapi/engine/metrics/delete-task-worker",
-                    "restapi/engine/metrics/get-sum"
-                  ]
-                },
-                {
-                  "group": "迁移",
-                  "pages": [
-                    "restapi/engine/migration/execute-plan",
-                    "restapi/engine/migration/execute-plan-async",
-                    "restapi/engine/migration/generate-plan",
-                    "restapi/engine/migration/validate-plan"
-                  ]
-                },
-                {
-                  "group": "流程修改",
-                  "pages": [
-                    "restapi/engine/modification/execute",
-                    "restapi/engine/migration/execute-async"
-                  ]
-                },
-                {
-                  "group": "流程定义",
-                  "pages": [
-                    "restapi/engine/process-definition/get",
-                    "restapi/engine/process-definition/count",
-                    "restapi/engine/process-definition/delete-by-key",
-                    "restapi/engine/process-definition/get-by-key",
-                    "restapi/engine/process-definition/get-deployed-start-form",
-                    "restapi/engine/process-definition/get-diagram",
-                    "restapi/engine/process-definition/get-start-form-variables",
-                    "restapi/engine/process-definition/update-httl",
-                    "restapi/engine/process-definition/get-rendered-start-form",
-                    "restapi/engine/process-definition/start-instance",
-                    "restapi/engine/process-definition/get-start-formkey",
-                    "restapi/engine/process-definition/get-activity-instance-statistics",
-                    "restapi/engine/process-definition/submit-start-form",
-                    "restapi/engine/process-definition/active-suspend-by-latest",
-                    "restapi/engine/process-definition/delelte-by-key-tenant",
-                    "restapi/engine/process-definition/get-by-key-tenant",
-                    "restapi/engine/process-definition/get-deployed-start-form-tenant",
-                    "restapi/engine/process-definition/get-diagram-tenant",
-                    "restapi/engine/process-definition/get-start-form-variables-tenant",
-                    "restapi/engine/process-definition/update-httl-tenant",
-                    "restapi/engine/process-definition/get-rendered-start-form-tenant",
-                    "restapi/engine/process-definition/start-instance-tenant",
-                    "restapi/engine/process-definition/get-start-formkey-tenant",
-                    "restapi/engine/process-definition/get-activity-instance-statistics-tenant",
-                    "restapi/engine/process-definition/submit-start-form-tenant",
-                    "restapi/engine/process-definition/active-suspend-by-latest-tenant",
-                    "restapi/engine/process-definition/get-xml-latest",
-                    "restapi/engine/process-definition/get-xml-latest-tenant",
-                    "restapi/engine/process-definition/get-process-instance-statistics",
-                    "restapi/engine/process-definition/active-suspend-by-key",
-                    "restapi/engine/process-definition/delete",
-                    "restapi/engine/process-definition/get-by-id",
-                    "restapi/engine/process-definition/get-deployed-start-form-by-id",
-                    "restapi/engine/process-definition/get-diagram-by-id",
-                    "restapi/engine/process-definition/get-start-form-variables-by-id",
-                    "restapi/engine/process-definition/update-httl-by-id",
-                    "restapi/engine/process-definition/get-rendered-start-form-by-id",
-                    "restapi/engine/process-definition/restart-process-instance",
-                    "restapi/engine/process-definition/restart-process-instance-async",
-                    "restapi/engine/process-definition/start-instance-by-id",
-                    "restapi/engine/process-definition/get-start-fromkey-by-id",
-                    "restapi/engine/process-definition/get-static-called-process-definition",
-                    "restapi/engine/process-definition/get-activity-instance-statistics",
-                    "restapi/engine/process-definition/submit-start-form-by-id",
-                    "restapi/engine/process-definition/active-suspend-by-id",
-                    "restapi/engine/process-definition/get-xml-by-id"
-                  ]
-                },
-                {
-                  "group": "流程实例",
-                  "pages": [
-                    "restapi/engine/process-instance/get",
-                    "restapi/engine/process-instance/get-via-post",
-                    "restapi/engine/process-instance/count",
-                    "restapi/engine/process-instance/count-via-post",
-                    "restapi/engine/process-instance/delete-async",
-                    "restapi/engine/process-instance/delete-async-query-based",
-                    "restapi/engine/process-instance/set-job-retries-async",
-                    "restapi/engine/process-instance/set-job-retries-async-query-based",
-                    "restapi/engine/process-instance/correlate-message-async",
-                    "restapi/engine/process-instance/active-suspend-group",
-                    "restapi/engine/process-instance/active-suspend-batch",
-                    "restapi/engine/process-instance/set-variables-async",
-                    "restapi/engine/process-instance/delete",
-                    "restapi/engine/process-instance/get-by-id",
-                    "restapi/engine/process-instance/get-activity-instance",
-                    "restapi/engine/process-instance/get-comments",
-                    "restapi/engine/process-instance/modify-process-instance-execution-state",
-                    "restapi/engine/process-instance/modify-process-instance-execution-state-async",
-                    "restapi/engine/process-instance/active-suspend-by-id",
-                    "restapi/engine/process-instance/get-variables",
-                    "restapi/engine/process-instance/update-delete-variables",
-                    "restapi/engine/process-instance/delete-variables",
-                    "restapi/engine/process-instance/update-variable",
-                    "restapi/engine/process-instance/get-process-variable-binary",
-                    "restapi/engine/process-instance/update-process-variable-binary"
-                  ]
-                },
-                {
-                  "group": "信号",
-                  "pages": [
-                    "restapi/engine/signal/event"
-                  ]
-                },
-                {
-                  "group": "数据库Schema",
-                  "pages": [
-                    "restapi/engine/schema/get",
-                    "restapi/engine/schema/get-via-count"
-                  ]
-                },
-                {
-                  "group": "任务",
-                  "pages": [
-                    "restapi/engine/task/get",
-                    "restapi/engine/task/get-via-post",
-                    "restapi/engine/task/count",
-                    "restapi/engine/task/get-via-post",
-                    "restapi/engine/task/create",
-                    "restapi/engine/task/get-count-by-candidate-group",
-                    "restapi/engine/task/delete",
-                    "restapi/engine/task/get-by-id",
-                    "restapi/engine/task/update",
-                    "restapi/engine/task/set-assignee",
-                    "restapi/engine/task/handle-bpmn-error",
-                    "restapi/engine/task/handle-bpmn-escalation",
-                    "restapi/engine/task/claim",
-                    "restapi/engine/task/complete",
-                    "restapi/engine/task/delegate",
-                    "restapi/engine/task/get-deployed-form",
-                    "restapi/engine/task/get-form-key",
-                    "restapi/engine/task/get-task-form-variables",
-                    "restapi/engine/task/get-rendered-form",
-                    "restapi/engine/task/resolve",
-                    "restapi/engine/task/submit-form",
-                    "restapi/engine/task/unclaim"
-                  ]
-                },
-                {
-                  "group": "任务附件",
-                  "pages": [
-                    "restapi/engine/task-attachment/get",
-                    "restapi/engine/task-attachment/create",
-                    "restapi/engine/task-attachment/delete",
-                    "restapi/engine/task-attachment/get-by-id",
-                    "restapi/engine/task-attachment/get-by-id-binary"
-                  ]
-                },
-                {
-                  "group": "任务评论",
-                  "pages": [
-                    "restapi/engine/task-comment/get",
-                    "restapi/engine/task-comment/create",
-                    "restapi/engine/task-comment/get-by-id"
-                  ]
-                },
-                {
-                  "group": "任务身份关联",
-                  "pages": [
-                    "restapi/engine/task-indentity/get",
-                    "restapi/engine/task-indentity/add",
-                    "restapi/engine/task-indentity/delete"
-                  ]
-                },
-                {
-                  "group": "任务本地变量",
-                  "pages": [
-                    "restapi/engine/task-local-variable/get",
-                    "restapi/engine/task-local-variable/update-delete-variables",
-                    "restapi/engine/task-local-variable/delete",
-                    "restapi/engine/task-local-variable/get-by-id",
-                    "restapi/engine/task-local-variable/update-by-id",
-                    "restapi/engine/task-local-variable/get-by-id-binary",
-                    "restapi/engine/task-local-variable/update-by-id-binary"
-                  ]
-                },
-                {
-                  "group": "任务变量",
-                  "pages": [
-                    "restapi/engine/task-variable/get",
-                    "restapi/engine/task-variable/update-delete-variables",
-                    "restapi/engine/task-variable/delete",
-                    "restapi/engine/task-variable/get-by-id",
-                    "restapi/engine/task-variable/update-by-id",
-                    "restapi/engine/task-variable/get-by-id-binary",
-                    "restapi/engine/task-variable/update-by-id-binary"
-                  ]
-                },
-                {
-                  "group": "租户",
-                  "pages": [
-                    "restapi/engine/tenant/get",
-                    "restapi/engine/tenant/count",
-                    "restapi/engine/tenant/create",
-                    "restapi/engine/tenant/delete",
-                    "restapi/engine/tenant/get-by-id",
-                    "restapi/engine/tenant/update",
-                    "restapi/engine/tenant/create-group-membership",
-                    "restapi/engine/tenant/delete-group-membership",
-                    "restapi/engine/tenant/create-user-membership",
-                    "restapi/engine/tenant/delete-user-membership"
-                  ]
-                },
-                {
-                  "group": "用户",
-                  "pages": [
-                    "restapi/engine/user/get",
-                    "restapi/engine/user/count",
-                    "restapi/engine/user/create",
-                    "restapi/engine/user/delete",
-                    "restapi/engine/user/get-profile",
-                    "restapi/engine/user/update-credentials",
-                    "restapi/engine/user/update-profile",
-                    "restapi/engine/user/unlock"
-                  ]
-                },
-                {
-                  "group": "变量实例",
-                  "pages": [
-                    "restapi/engine/variable-instance/get",
-                    "restapi/engine/variable-instance/get-via-post",
-                    "restapi/engine/variable-instance/count",
-                    "restapi/engine/variable-instance/count-via-post",
-                    "restapi/engine/variable-instance/get-by-id",
-                    "restapi/engine/variable-instance/get-by-id-binary"
-                  ]
-                },
-                {
-                  "group": "API版本",
-                  "pages": [
-                    "restapi/engine/version/get"
-                  ]
-                }
-              ]
-            },
-            {
-              "group": "Javadoc",
-              "pages": [
-                "reference/javadoc"
-              ]
-            }
-          ]
-        },
-        {
-          "tab": "参考",
-          "groups": [
-            {
-              "group": "流程建模",
-              "pages": [
-                {
-                  "group": "BPMN",
-                  "pages": [
-                    "best-practice/bpmn",
-                    {
-                      "group": "任务",
-                      "pages": [
-                        "reference/service-task",
-                        "reference/send-task",
-                        "reference/user-task",
-                        "reference/business-rule-task",
-                        "reference/script-task",
-                        "reference/receive-task",
-                        "reference/manual-task",
-                        "reference/markers"
-                      ]
-                    },
-                    {
-                      "group": "网关",
-                      "pages": [
-                        "reference/xor-gateway",
-                        "reference/parallel-gateway",
-                        "reference/inclusive-gate",
-                        "reference/event-based-gateway"
-                      ]
-                    },
-                    {
-                      "group": "事件",
-                      "pages": [
-                        "reference/start-event",
-                        "reference/none-event",
-                        "reference/message-event",
-                        "reference/timer-event",
-                        "reference/error-event",
-                        "reference/escalation-event",
-                        "reference/signal-event",
-                        "reference/cancel-compensation-event",
-                        "reference/conditional-event",
-                        "reference/link-event",
-                        "reference/terminate-event"
-                      ]
-                    },
-                    {
-                      "group": "子流程",
-                      "pages": [
-                        "reference/embedded-subprocess",
-                        "reference/call-activity",
-                        "reference/event-subprocess",
-                        "reference/transaction-subprocess"
-                      ]
-                    },
-                    {
-                      "group": "扩展属性",
-                      "pages": [
-                        "reference/extensions"
-                      ]
-                    }
-                  ]
-                },
-                {
-                  "group": "DMN",
-                  "pages": [
-                    "reference/dmn",
-                    {
-                      "group": "决策表",
-                      "pages": [
-                        "reference/dmn-input",
-                        "reference/dmn-output",
-                        "reference/dmn-rule",
-                        "reference/dmn-hit-policy"
-                      ]
-                    },
-                    {
-                      "group": "FEEL",
-                      "pages": [
-                        "reference/feel-data-type",
-                        "reference/feel-language"
-                      ]
-                    }
-                  ]
-                }
-              ]
-            },
-            {
-              "group": "SPIN数据处理",
-              "pages": [
-                "reference/spin",
-                {
-                  "group": "XML",
-                  "pages": [
-                    "reference/spin/read-xml",
-                    "reference/spin/manipulating-xml",
-                    "reference/spin/writing-xml",
-                    "reference/spin/query-xml",
-                    "reference/spin/mapping-xml",
-                    "reference/spin/config-xml-handling"
-                  ]
-                },
-                {
-                  "group": "JSON",
-                  "pages": [
-                    "reference/spin/read-json",
-                    "reference/spin/writing-json",
-                    "reference/spin/query-json",
-                    "reference/spin/mapping-json",
-                    "reference/spin/config-xml-handling"
-                  ]
-                }
-              ]
-            },
-            {
-              "group": "外部任务客户端",
-              "pages": [
-                "reference/external-task"
-              ]
-            }
-          ]
-        }
-      ],
-      "global": {
-        "anchors": [
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "API",
+        "groups": [
           {
-            "anchor": "社区资讯",
-            "href": "https://www.oriorion.com/event.html",
-            "icon": "slack"
+            "group": "REST API",
+            "pages": [
+              {
+                "group": "授权",
+                "pages": [
+                  "restapi/engine/authorization/get",
+                  "restapi/engine/authorization/check",
+                  "restapi/engine/authorization/count",
+                  "restapi/engine/authorization/create",
+                  "restapi/engine/authorization/delete",
+                  "restapi/engine/authorization/getid",
+                  "restapi/engine/authorization/update"
+                ]
+              },
+              {
+                "group": "批处理",
+                "pages": [
+                  "restapi/engine/batch/get",
+                  "restapi/engine/batch/count",
+                  "restapi/engine/batch/statistics",
+                  "restapi/engine/batch/countstatistics",
+                  "restapi/engine/batch/delete",
+                  "restapi/engine/batch/get-by-id",
+                  "restapi/engine/batch/activesuspend"
+                ]
+              },
+              {
+                "group": "条件",
+                "pages": [
+                  "restapi/engine/condition/evaluate"
+                ]
+              },
+              {
+                "group": "决策定义",
+                "pages": [
+                  "restapi/engine/decision-definition/get",
+                  "restapi/engine/decision-definition/count",
+                  "restapi/engine/decision-definition/get-by-key",
+                  "restapi/engine/decision-definition/get-diagram-by-key",
+                  "restapi/engine/decision-definition/evaluate-by-key",
+                  "restapi/engine/decision-definition/update-ttl-by-key",
+                  "restapi/engine/decision-definition/get-by-tenant-and-key",
+                  "restapi/engine/decision-definition/get-diagram-by-tenant-and-key",
+                  "restapi/engine/decision-definition/evaluate-by-tenant-and-key",
+                  "restapi/engine/decision-definition/update-ttl-by-tenant-and-key",
+                  "restapi/engine/decision-definition/get-xml-by-tenant-and-key",
+                  "restapi/engine/decision-definition/get-xml-by-key",
+                  "restapi/engine/decision-definition/get-by-id",
+                  "restapi/engine/decision-definition/get-diagram-by-id",
+                  "restapi/engine/decision-definition/evaluate-by-id",
+                  "restapi/engine/decision-definition/update-ttl-by-id",
+                  "restapi/engine/decision-definition/get-xml-by-id"
+                ]
+              },
+              {
+                "group": "决策依赖定义",
+                "pages": [
+                  "restapi/engine/decision-requirements-definition/get",
+                  "restapi/engine/decision-requirements-definition/count",
+                  "restapi/engine/decision-requirements-definition/get-by-key",
+                  "restapi/engine/decision-requirements-definition/get-diagram-by-key",
+                  "restapi/engine/decision-requirements-definition/get-by-tenant-and-key",
+                  "restapi/engine/decision-requirements-definition/get-diagram-by-tenant-and-key",
+                  "restapi/engine/decision-requirements-definition/get-xml-by-tenant-and-key",
+                  "restapi/engine/decision-requirements-definition/get-xml-by-key",
+                  "restapi/engine/decision-requirements-definition/get-by-id",
+                  "restapi/engine/decision-requirements-definition/get-diagram-by-id",
+                  "restapi/engine/decision-requirements-definition/get-xml-by-id"
+                ]
+              },
+              {
+                "group": "部署",
+                "pages": [
+                  "restapi/engine/deployment/get",
+                  "restapi/engine/deployment/count",
+                  "restapi/engine/deployment/create",
+                  "restapi/engine/deployment/get-deployments",
+                  "restapi/engine/deployment/delete",
+                  "restapi/engine/deployment/get-by-id",
+                  "restapi/engine/deployment/redeploy",
+                  "restapi/engine/deployment/get-resources",
+                  "restapi/engine/deployment/get-resource-by-id",
+                  "restapi/engine/deployment/get-resource-binary"
+                ]
+              },
+              {
+                "group": "引擎",
+                "pages": [
+                  "restapi/engine/engine/get"
+                ]
+              },
+              {
+                "group": "事件订阅",
+                "pages": [
+                  "restapi/engine/event-subscription/get",
+                  "restapi/engine/event-subscription/count"
+                ]
+              },
+              {
+                "group": "执行实例",
+                "pages": [
+                  "restapi/engine/execution/get",
+                  "restapi/engine/execution/get-via-post",
+                  "restapi/engine/execution/count",
+                  "restapi/engine/execution/count-via-post",
+                  "restapi/engine/execution/get-by-id",
+                  "restapi/engine/execution/create-incident",
+                  "restapi/engine/execution/get-local-execution-variables",
+                  "restapi/engine/execution/update-local-execution-variables",
+                  "restapi/engine/execution/delete-local-execution-variable",
+                  "restapi/engine/execution/get-local-execution-variable",
+                  "restapi/engine/execution/put-local-execution-variable",
+                  "restapi/engine/execution/get-local-execution-variable-binary",
+                  "restapi/engine/execution/post-local-execution-variable-binary",
+                  "restapi/engine/execution/get-message-subscription",
+                  "restapi/engine/execution/trigger-message-subscription",
+                  "restapi/engine/execution/trigger-execution"
+                ]
+              },
+              {
+                "group": "外部任务",
+                "pages": [
+                  "restapi/engine/external-task/get",
+                  "restapi/engine/external-task/get-via-post",
+                  "restapi/engine/external-task/count",
+                  "restapi/engine/external-task/count-via-post",
+                  "restapi/engine/external-task/fetch-lock",
+                  "restapi/engine/external-task/set-retries-sync",
+                  "restapi/engine/external-task/set-retries-async",
+                  "restapi/engine/external-task/get-topic-names",
+                  "restapi/engine/external-task/get-by-id",
+                  "restapi/engine/external-task/handle-bpmnerror",
+                  "restapi/engine/external-task/complete",
+                  "restapi/engine/external-task/get-error-details",
+                  "restapi/engine/external-task/extend-lock",
+                  "restapi/engine/external-task/handle-failure",
+                  "restapi/engine/external-task/lock",
+                  "restapi/engine/external-task/set-priority",
+                  "restapi/engine/external-task/set-retries",
+                  "restapi/engine/external-task/unlock"
+                ]
+              },
+              {
+                "group": "组",
+                "pages": [
+                  "restapi/engine/group/get",
+                  "restapi/engine/group/get-via-post",
+                  "restapi/engine/group/count",
+                  "restapi/engine/group/count-via-post",
+                  "restapi/engine/group/create",
+                  "restapi/engine/group/delete",
+                  "restapi/engine/group/get-by-id",
+                  "restapi/engine/group/update",
+                  "restapi/engine/group/create-member",
+                  "restapi/engine/group/delete-member"
+                ]
+              },
+              {
+                "group": "租户",
+                "pages": [
+                  "restapi/engine/tenant/get",
+                  "restapi/engine/tenant/count",
+                  "restapi/engine/tenant/create",
+                  "restapi/engine/tenant/delete",
+                  "restapi/engine/tenant/get-by-id",
+                  "restapi/engine/tenant/update",
+                  "restapi/engine/tenant/create-group-member",
+                  "restapi/engine/tenant/create-user-member",
+                  "restapi/engine/tenant/delete-group-member",
+                  "restapi/engine/tenant/delete-user-member"
+                ]
+              },
+              {
+                "group": "历史活动实例",
+                "pages": [
+                  "restapi/engine/history-activity-instance/get",
+                  "restapi/engine/history-activity-instance/get-via-post",
+                  "restapi/engine/history-activity-instance/count",
+                  "restapi/engine/history-activity-instance/count-via-post",
+                  "restapi/engine/history-activity-instance/get-by-id"
+                ]
+              },
+              {
+                "group": "历史批处理",
+                "pages": [
+                  "restapi/engine/history-batch/get",
+                  "restapi/engine/history-batch/get-cleanable-report",
+                  "restapi/engine/history-batch/count-cleanable-report",
+                  "restapi/engine/history-batch/count",
+                  "restapi/engine/history-batch/set-removal-time-async",
+                  "restapi/engine/history-batch/delete",
+                  "restapi/engine/history-batch/get-by-id"
+                ]
+              },
+              {
+                "group": "历史决策定义",
+                "pages": [
+                  "restapi/engine/history-decision-definition/get-report",
+                  "restapi/engine/history-decision-definition/count-report"
+                ]
+              },
+              {
+                "group": "历史决策实例",
+                "pages": [
+                  "restapi/engine/history-decision-instance/get",
+                  "restapi/engine/history-decision-instance/count",
+                  "restapi/engine/history-decision-instance/delete-async",
+                  "restapi/engine/history-decision-instance/set-removal-time-async",
+                  "restapi/engine/history-decision-instance/get-by-id"
+                ]
+              },
+              {
+                "group": "历史决策依赖",
+                "pages": [
+                  "restapi/engine/history-decision-requirement/get-statistics"
+                ]
+              },
+              {
+                "group": "历史明细",
+                "pages": [
+                  "restapi/engine/history-detail/get",
+                  "restapi/engine/history-detail/get-via-post",
+                  "restapi/engine/history-detail/count",
+                  "restapi/engine/history-detail/get-by-id",
+                  "restapi/engine/history-detail/get-by-id-binary"
+                ]
+              },
+              {
+                "group": "历史外部任务日志",
+                "pages": [
+                  "restapi/engine/history-external-task-log/get",
+                  "restapi/engine/history-external-task-log/get-via-post",
+                  "restapi/engine/history-external-task-log/count",
+                  "restapi/engine/history-external-task-log/count-via-post",
+                  "restapi/engine/history-external-task-log/get-by-id",
+                  "restapi/engine/history-external-task-log/get-error-details"
+                ]
+              },
+              {
+                "group": "历史身份关联日志",
+                "pages": [
+                  "restapi/engine/history-identity-link-log/get",
+                  "restapi/engine/history-identity-link-log/count"
+                ]
+              },
+              {
+                "group": "历史故障",
+                "pages": [
+                  "restapi/engine/history-incidents/get",
+                  "restapi/engine/history-incidents/count"
+                ]
+              },
+              {
+                "group": "历史Job日志",
+                "pages": [
+                  "restapi/engine/history-job-log/get",
+                  "restapi/engine/history-job-log/get-via-post",
+                  "restapi/engine/history-job-log/count",
+                  "restapi/engine/history-job-log/count-via-post",
+                  "restapi/engine/history-job-log/get-by-id",
+                  "restapi/engine/history-job-log/get-exception-stacktrace"
+                ]
+              },
+              {
+                "group": "历史流程定义",
+                "pages": [
+                  "restapi/engine/history-process-denifition/get-report",
+                  "restapi/engine/history-process-denifition/count-report",
+                  "restapi/engine/history-process-denifition/get-statistics"
+                ]
+              },
+              {
+                "group": "历史流程实例",
+                "pages": [
+                  "restapi/engine/history-process-instance/get",
+                  "restapi/engine/history-process-instance/get-via-post",
+                  "restapi/engine/history-process-instance/count",
+                  "restapi/engine/history-process-instance/count-via-post",
+                  "restapi/engine/history-process-instance/delete-async-post",
+                  "restapi/engine/history-process-instance/get-duration-report",
+                  "restapi/engine/history-process-instance/set-removal-time-async",
+                  "restapi/engine/history-process-instance/delete",
+                  "restapi/engine/history-process-instance/get-by-id",
+                  "restapi/engine/history-process-instance/delete-variable-instance"
+                ]
+              },
+              {
+                "group": "历史任务实例",
+                "pages": [
+                  "restapi/engine/history-task-instance/get",
+                  "restapi/engine/history-task-instance/get-via-post",
+                  "restapi/engine/history-task-instance/count",
+                  "restapi/engine/history-task-instance/count-via-post",
+                  "restapi/engine/history-task-instance/get-report"
+                ]
+              },
+              {
+                "group": "历史用户操作日志",
+                "pages": [
+                  "restapi/engine/history-user-operation-log/get",
+                  "restapi/engine/history-user-operation-log/count",
+                  "restapi/engine/history-user-operation-log/clear-annotation",
+                  "restapi/engine/history-user-operation-log/set-annotation"
+                ]
+              },
+              {
+                "group": "历史变量实例",
+                "pages": [
+                  "restapi/engine/history-variable-instance/get",
+                  "restapi/engine/history-variable-instance/get-via-post",
+                  "restapi/engine/history-variable-instance/count",
+                  "restapi/engine/history-variable-instance/count-via-post",
+                  "restapi/engine/history-variable-instance/delete",
+                  "restapi/engine/history-variable-instance/get-by-id",
+                  "restapi/engine/history-variable-instance/get-by-id-binary"
+                ]
+              },
+              {
+                "group": "历史数据清理",
+                "pages": [
+                  "restapi/engine/history-cleanup/clean",
+                  "restapi/engine/history-cleanup/get-configuration",
+                  "restapi/engine/history-cleanup/find-history-jobs"
+                ]
+              },
+              {
+                "group": "身份",
+                "pages": [
+                  "restapi/engine/identity/get-users-groups",
+                  "restapi/engine/identity/get-password-policy",
+                  "restapi/engine/identity/validate-password",
+                  "restapi/engine/identity/verfiy-user"
+                ]
+              },
+              {
+                "group": "故障",
+                "pages": [
+                  "restapi/engine/incident/get",
+                  "restapi/engine/incident/count",
+                  "restapi/engine/incident/resolve",
+                  "restapi/engine/incident/get-by-id",
+                  "restapi/engine/incident/clear-annotation",
+                  "restapi/engine/incident/set-annotation"
+                ]
+              },
+              {
+                "group": "Job",
+                "pages": [
+                  "restapi/engine/job/get",
+                  "restapi/engine/job/get-via-post",
+                  "restapi/engine/job/count",
+                  "restapi/engine/job/count-via-post",
+                  "restapi/engine/job/set-retries-async",
+                  "restapi/engine/job/active-suspend-jobs",
+                  "restapi/engine/job/delete",
+                  "restapi/engine/job/get-by-id",
+                  "restapi/engine/job/set-due-date",
+                  "restapi/engine/job/recalculate-due-date",
+                  "restapi/engine/job/execute",
+                  "restapi/engine/job/set-priority",
+                  "restapi/engine/job/set-retries",
+                  "restapi/engine/job/get-exception-stacktrace",
+                  "restapi/engine/job/active-suspend-by-id"
+                ]
+              },
+              {
+                "group": "Job定义",
+                "pages": [
+                  "restapi/engine/job-definition/get",
+                  "restapi/engine/job-definition/get-via-post",
+                  "restapi/engine/job-definition/count",
+                  "restapi/engine/job-definition/count-via-post",
+                  "restapi/engine/job-definition/active-suspend-definitions",
+                  "restapi/engine/job-definition/get-by-id",
+                  "restapi/engine/job-definition/set-priority-by-id",
+                  "restapi/engine/job-definition/set-retries-by-id",
+                  "restapi/engine/job-definition/active-suspend-by-id"
+                ]
+              },
+              {
+                "group": "消息",
+                "pages": [
+                  "restapi/engine/message/correlate"
+                ]
+              },
+              {
+                "group": "指标",
+                "pages": [
+                  "restapi/engine/metrics/get",
+                  "restapi/engine/metrics/delete-task-worker",
+                  "restapi/engine/metrics/get-sum"
+                ]
+              },
+              {
+                "group": "迁移",
+                "pages": [
+                  "restapi/engine/migration/execute-plan",
+                  "restapi/engine/migration/execute-plan-async",
+                  "restapi/engine/migration/generate-plan",
+                  "restapi/engine/migration/validate-plan"
+                ]
+              },
+              {
+                "group": "流程修改",
+                "pages": [
+                  "restapi/engine/modification/execute",
+                  "restapi/engine/migration/execute-async"
+                ]
+              },
+              {
+                "group": "流程定义",
+                "pages": [
+                  "restapi/engine/process-definition/get",
+                  "restapi/engine/process-definition/count",
+                  "restapi/engine/process-definition/delete-by-key",
+                  "restapi/engine/process-definition/get-by-key",
+                  "restapi/engine/process-definition/get-deployed-start-form",
+                  "restapi/engine/process-definition/get-diagram",
+                  "restapi/engine/process-definition/get-start-form-variables",
+                  "restapi/engine/process-definition/update-httl",
+                  "restapi/engine/process-definition/get-rendered-start-form",
+                  "restapi/engine/process-definition/start-instance",
+                  "restapi/engine/process-definition/get-start-formkey",
+                  "restapi/engine/process-definition/get-activity-instance-statistics",
+                  "restapi/engine/process-definition/submit-start-form",
+                  "restapi/engine/process-definition/active-suspend-by-latest",
+                  "restapi/engine/process-definition/delelte-by-key-tenant",
+                  "restapi/engine/process-definition/get-by-key-tenant",
+                  "restapi/engine/process-definition/get-deployed-start-form-tenant",
+                  "restapi/engine/process-definition/get-diagram-tenant",
+                  "restapi/engine/process-definition/get-start-form-variables-tenant",
+                  "restapi/engine/process-definition/update-httl-tenant",
+                  "restapi/engine/process-definition/get-rendered-start-form-tenant",
+                  "restapi/engine/process-definition/start-instance-tenant",
+                  "restapi/engine/process-definition/get-start-formkey-tenant",
+                  "restapi/engine/process-definition/get-activity-instance-statistics-tenant",
+                  "restapi/engine/process-definition/submit-start-form-tenant",
+                  "restapi/engine/process-definition/active-suspend-by-latest-tenant",
+                  "restapi/engine/process-definition/get-xml-latest",
+                  "restapi/engine/process-definition/get-xml-latest-tenant",
+                  "restapi/engine/process-definition/get-process-instance-statistics",
+                  "restapi/engine/process-definition/active-suspend-by-key",
+                  "restapi/engine/process-definition/delete",
+                  "restapi/engine/process-definition/get-by-id",
+                  "restapi/engine/process-definition/get-deployed-start-form-by-id",
+                  "restapi/engine/process-definition/get-diagram-by-id",
+                  "restapi/engine/process-definition/get-start-form-variables-by-id",
+                  "restapi/engine/process-definition/update-httl-by-id",
+                  "restapi/engine/process-definition/get-rendered-start-form-by-id",
+                  "restapi/engine/process-definition/restart-process-instance",
+                  "restapi/engine/process-definition/restart-process-instance-async",
+                  "restapi/engine/process-definition/start-instance-by-id",
+                  "restapi/engine/process-definition/get-start-fromkey-by-id",
+                  "restapi/engine/process-definition/get-static-called-process-definition",
+                  "restapi/engine/process-definition/get-activity-instance-statistics",
+                  "restapi/engine/process-definition/submit-start-form-by-id",
+                  "restapi/engine/process-definition/active-suspend-by-id",
+                  "restapi/engine/process-definition/get-xml-by-id"
+                ]
+              },
+              {
+                "group": "流程实例",
+                "pages": [
+                  "restapi/engine/process-instance/get",
+                  "restapi/engine/process-instance/get-via-post",
+                  "restapi/engine/process-instance/count",
+                  "restapi/engine/process-instance/count-via-post",
+                  "restapi/engine/process-instance/delete-async",
+                  "restapi/engine/process-instance/delete-async-query-based",
+                  "restapi/engine/process-instance/set-job-retries-async",
+                  "restapi/engine/process-instance/set-job-retries-async-query-based",
+                  "restapi/engine/process-instance/correlate-message-async",
+                  "restapi/engine/process-instance/active-suspend-group",
+                  "restapi/engine/process-instance/active-suspend-batch",
+                  "restapi/engine/process-instance/set-variables-async",
+                  "restapi/engine/process-instance/delete",
+                  "restapi/engine/process-instance/get-by-id",
+                  "restapi/engine/process-instance/get-activity-instance",
+                  "restapi/engine/process-instance/get-comments",
+                  "restapi/engine/process-instance/modify-process-instance-execution-state",
+                  "restapi/engine/process-instance/modify-process-instance-execution-state-async",
+                  "restapi/engine/process-instance/active-suspend-by-id",
+                  "restapi/engine/process-instance/get-variables",
+                  "restapi/engine/process-instance/update-delete-variables",
+                  "restapi/engine/process-instance/delete-variables",
+                  "restapi/engine/process-instance/update-variable",
+                  "restapi/engine/process-instance/get-process-variable-binary",
+                  "restapi/engine/process-instance/update-process-variable-binary"
+                ]
+              },
+              {
+                "group": "信号",
+                "pages": [
+                  "restapi/engine/signal/event"
+                ]
+              },
+              {
+                "group": "数据库Schema",
+                "pages": [
+                  "restapi/engine/schema/get",
+                  "restapi/engine/schema/get-via-count"
+                ]
+              },
+              {
+                "group": "任务",
+                "pages": [
+                  "restapi/engine/task/get",
+                  "restapi/engine/task/get-via-post",
+                  "restapi/engine/task/count",
+                  "restapi/engine/task/get-via-post",
+                  "restapi/engine/task/create",
+                  "restapi/engine/task/get-count-by-candidate-group",
+                  "restapi/engine/task/delete",
+                  "restapi/engine/task/get-by-id",
+                  "restapi/engine/task/update",
+                  "restapi/engine/task/set-assignee",
+                  "restapi/engine/task/handle-bpmn-error",
+                  "restapi/engine/task/handle-bpmn-escalation",
+                  "restapi/engine/task/claim",
+                  "restapi/engine/task/complete",
+                  "restapi/engine/task/delegate",
+                  "restapi/engine/task/get-deployed-form",
+                  "restapi/engine/task/get-form-key",
+                  "restapi/engine/task/get-task-form-variables",
+                  "restapi/engine/task/get-rendered-form",
+                  "restapi/engine/task/resolve",
+                  "restapi/engine/task/submit-form",
+                  "restapi/engine/task/unclaim"
+                ]
+              },
+              {
+                "group": "任务附件",
+                "pages": [
+                  "restapi/engine/task-attachment/get",
+                  "restapi/engine/task-attachment/create",
+                  "restapi/engine/task-attachment/delete",
+                  "restapi/engine/task-attachment/get-by-id",
+                  "restapi/engine/task-attachment/get-by-id-binary"
+                ]
+              },
+              {
+                "group": "任务评论",
+                "pages": [
+                  "restapi/engine/task-comment/get",
+                  "restapi/engine/task-comment/create",
+                  "restapi/engine/task-comment/get-by-id"
+                ]
+              },
+              {
+                "group": "任务身份关联",
+                "pages": [
+                  "restapi/engine/task-indentity/get",
+                  "restapi/engine/task-indentity/add",
+                  "restapi/engine/task-indentity/delete"
+                ]
+              },
+              {
+                "group": "任务本地变量",
+                "pages": [
+                  "restapi/engine/task-local-variable/get",
+                  "restapi/engine/task-local-variable/update-delete-variables",
+                  "restapi/engine/task-local-variable/delete",
+                  "restapi/engine/task-local-variable/get-by-id",
+                  "restapi/engine/task-local-variable/update-by-id",
+                  "restapi/engine/task-local-variable/get-by-id-binary",
+                  "restapi/engine/task-local-variable/update-by-id-binary"
+                ]
+              },
+              {
+                "group": "任务变量",
+                "pages": [
+                  "restapi/engine/task-variable/get",
+                  "restapi/engine/task-variable/update-delete-variables",
+                  "restapi/engine/task-variable/delete",
+                  "restapi/engine/task-variable/get-by-id",
+                  "restapi/engine/task-variable/update-by-id",
+                  "restapi/engine/task-variable/get-by-id-binary",
+                  "restapi/engine/task-variable/update-by-id-binary"
+                ]
+              },
+              {
+                "group": "租户",
+                "pages": [
+                  "restapi/engine/tenant/get",
+                  "restapi/engine/tenant/count",
+                  "restapi/engine/tenant/create",
+                  "restapi/engine/tenant/delete",
+                  "restapi/engine/tenant/get-by-id",
+                  "restapi/engine/tenant/update",
+                  "restapi/engine/tenant/create-group-membership",
+                  "restapi/engine/tenant/delete-group-membership",
+                  "restapi/engine/tenant/create-user-membership",
+                  "restapi/engine/tenant/delete-user-membership"
+                ]
+              },
+              {
+                "group": "用户",
+                "pages": [
+                  "restapi/engine/user/get",
+                  "restapi/engine/user/count",
+                  "restapi/engine/user/create",
+                  "restapi/engine/user/delete",
+                  "restapi/engine/user/get-profile",
+                  "restapi/engine/user/update-credentials",
+                  "restapi/engine/user/update-profile",
+                  "restapi/engine/user/unlock"
+                ]
+              },
+              {
+                "group": "变量实例",
+                "pages": [
+                  "restapi/engine/variable-instance/get",
+                  "restapi/engine/variable-instance/get-via-post",
+                  "restapi/engine/variable-instance/count",
+                  "restapi/engine/variable-instance/count-via-post",
+                  "restapi/engine/variable-instance/get-by-id",
+                  "restapi/engine/variable-instance/get-by-id-binary"
+                ]
+              },
+              {
+                "group": "API版本",
+                "pages": [
+                  "restapi/engine/version/get"
+                ]
+              }
+            ]
           },
           {
-            "anchor": "博客",
-            "href": "https://www.oriorion.com/news.html",
-            "icon": "newspaper"
+            "group": "Javadoc",
+            "pages": [
+              "reference/javadoc"
+            ]
+          }
+        ]
+      },
+      {
+        "tab": "参考",
+        "groups": [
+          {
+            "group": "流程建模",
+            "pages": [
+              {
+                "group": "BPMN",
+                "pages": [
+                  "best-practice/bpmn",
+                  {
+                    "group": "任务",
+                    "pages": [
+                      "reference/service-task",
+                      "reference/send-task",
+                      "reference/user-task",
+                      "reference/business-rule-task",
+                      "reference/script-task",
+                      "reference/receive-task",
+                      "reference/manual-task",
+                      "reference/markers"
+                    ]
+                  },
+                  {
+                    "group": "网关",
+                    "pages": [
+                      "reference/xor-gateway",
+                      "reference/parallel-gateway",
+                      "reference/inclusive-gate",
+                      "reference/event-based-gateway"
+                    ]
+                  },
+                  {
+                    "group": "事件",
+                    "pages": [
+                      "reference/start-event",
+                      "reference/none-event",
+                      "reference/message-event",
+                      "reference/timer-event",
+                      "reference/error-event",
+                      "reference/escalation-event",
+                      "reference/signal-event",
+                      "reference/cancel-compensation-event",
+                      "reference/conditional-event",
+                      "reference/link-event",
+                      "reference/terminate-event"
+                    ]
+                  },
+                  {
+                    "group": "子流程",
+                    "pages": [
+                      "reference/embedded-subprocess",
+                      "reference/call-activity",
+                      "reference/event-subprocess",
+                      "reference/transaction-subprocess"
+                    ]
+                  },
+                  {
+                    "group": "扩展属性",
+                    "pages": [
+                      "reference/extensions"
+                    ]
+                  }
+                ]
+              },
+              {
+                "group": "DMN",
+                "pages": [
+                  "reference/dmn",
+                  {
+                    "group": "决策表",
+                    "pages": [
+                      "reference/dmn-input",
+                      "reference/dmn-output",
+                      "reference/dmn-rule",
+                      "reference/dmn-hit-policy"
+                    ]
+                  },
+                  {
+                    "group": "FEEL",
+                    "pages": [
+                      "reference/feel-data-type",
+                      "reference/feel-language"
+                    ]
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "group": "SPIN数据处理",
+            "pages": [
+              "reference/spin",
+              {
+                "group": "XML",
+                "pages": [
+                  "reference/spin/read-xml",
+                  "reference/spin/manipulating-xml",
+                  "reference/spin/writing-xml",
+                  "reference/spin/query-xml",
+                  "reference/spin/mapping-xml",
+                  "reference/spin/config-xml-handling"
+                ]
+              },
+              {
+                "group": "JSON",
+                "pages": [
+                  "reference/spin/read-json",
+                  "reference/spin/writing-json",
+                  "reference/spin/query-json",
+                  "reference/spin/mapping-json",
+                  "reference/spin/config-xml-handling"
+                ]
+              }
+            ]
+          },
+          {
+            "group": "外部任务客户端",
+            "pages": [
+              "reference/external-task"
+            ]
           }
         ]
       }
-    },
-    "logo": {
-      "light": "/logo/light.svg",
-      "dark": "/logo/dark.svg"
-    },
-    "navbar": {
-      "links": [
+    ],
+    "global": {
+      "anchors": [
         {
-          "label": "支持",
-          "href": "mailto:support@oriorion.com"
+          "anchor": "社区资讯",
+          "href": "https://www.oriorion.com/event.html",
+          "icon": "slack"
+        },
+        {
+          "anchor": "博客",
+          "href": "https://www.oriorion.com/news.html",
+          "icon": "newspaper"
         }
-      ],
-      "primary": {
-        "type": "button",
-        "label": "官网",
-        "href": "https://oriorion.com"
+      ]
+    }
+  },
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+  "navbar": {
+    "links": [
+      {
+        "label": "支持",
+        "href": "mailto:support@oriorion.com"
       }
-    },
-    "footer": {
-      "socials": {
-        "github": "https://github.com/orion-automation",
-        "linkedin": "https://linkedin.com/company/eorion"
-      }
+    ],
+    "primary": {
+      "type": "button",
+      "label": "官网",
+      "href": "https://oriorion.com"
+    }
+  },
+  "footer": {
+    "socials": {
+      "github": "https://github.com/orion-automation",
+      "linkedin": "https://linkedin.com/company/eorion"
     }
   }
+}
