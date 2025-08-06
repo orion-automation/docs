@@ -726,6 +726,28 @@
                     ]
                   }
                 ]
+              },
+              {
+                "group": "DMN",
+                "pages": [
+                  "reference/dmn",
+                  {
+                    "group": "决策表",
+                    "pages": [
+                      "reference/dmn-input",
+                      "reference/dmn-output",
+                      "reference/dmn-rule",
+                      "reference/dmn-hit-policy"
+                    ]
+                  },
+                  {
+                    "group": "FEEL",
+                    "pages": [
+                      "reference/feel-data-type",
+                      "reference/feel-language"
+                    ]
+                  }
+                ]
               }
             ]
           }
