@@ -21,7 +21,8 @@
                 "pages": [
                   "getstarted",
                   "capabilities",
-                  "helloorion"
+                  "helloorion",
+                  "dockdeploy"
                 ]
               }
             ]
