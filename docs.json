@@ -890,6 +890,24 @@
               "best-practice/human-task-lifecycle",
               "best-practice/agentic-orchestration"
             ]
+          },
+          {
+            "group": "使用",
+            "pages": [
+              "best-practice/success-path",
+              "best-practice/doing-proper-poc",
+              "best-practice/deciding-stack",
+              "best-practice/sizing",
+              "best-practice/performance-tuning",
+              "best-practice/securing"
+            ]
+          },
+          {
+            "group": "开发",
+            "pages": [
+              "best-practice/connecting-engine-in",
+              "best-practice/dealing-problems"
+            ]
           }
         ]
       }
