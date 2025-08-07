@@ -15,18 +15,25 @@ description: "通过Docker Compose快速部署体验ORION EE企业版"
 
 ### 加载镜像
 
-1. 通过官网渠道获取最新版本的 `eorion-camunda-ee` 镜像压缩文件。压缩文件为`.tar` 格式，仅支持 Docker 引擎。
-2. 将镜像加载至本地 Docker 环境：
+<Steps>
+  <Step title="准备资源">
+    通过官网渠道获取最新版本的 `eorion-camunda-ee` 镜像压缩文件。压缩文件为`.tar` 格式，仅支持 Docker 引擎。
+  </Step>
+  <Step title="加载镜像">
+    将镜像加载至本地 Docker 环境
 
-```bash
-docker load -i eorion-camunda-ee-x.y.z.tar
-```
+    ```bash
+    docker load -i eorion-camunda-ee-x.y.z.tar
+    ```
+  </Step>
+  <Step title="验证结果">
+    验证镜像是否加载成功，并查看镜像名称与标签（tag）
 
-3. 验证镜像是否加载成功，并查看镜像名称与标签（tag）：
-
-```bash
-docker image ls
-```
+    ```bash
+    docker image ls
+    ```
+  </Step>
+</Steps>
 
 ### 配置与启动服务
 
