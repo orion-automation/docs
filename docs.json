@@ -106,7 +106,8 @@
                   "guide/installation/remote-engine",
                   "guide/installation/shared-engine",
                   "guide/installation/spring-boot",
-                  "guide/installation/docker"
+                  "guide/installation/docker",
+                  "guide/installation/database"
                 ]
               }
             ]

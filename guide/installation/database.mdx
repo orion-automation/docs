@@ -1,0 +1,16 @@
+---
+title: "数据库隔离级别设置"
+---
+
+大多数数据库管理系统提供了四种可设置的事务隔离级别。根据 ANSI/ISO SQL 标准，从低到高的隔离级别依次为：
+
+- `READ UNCOMMITTED`
+- `READ COMMITTED`
+- `REPEATABLE READ`
+- `SERIALIZABLE`
+
+ORION 要求使用的隔离级别是`READ COMMITTED`。请注意，不同数据库系统中该隔离级别的名称可能有所不同。将隔离级别设置为 `REPEATABLE READ` 已知可能导致死锁，因此在修改隔离级别时必须特别小心。
+
+在流程引擎初始化时，ORION 会检查当前数据库设置的事务隔离级别是否与推荐值不同。如果不一致，系统将抛出异常。
+
+如果希望跳过此检查，可以将配置项 `skipIsolationLevelCheck` 设置为 `true`。这样将不会抛出异常，而是仅记录一条警告日志。
