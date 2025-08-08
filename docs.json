@@ -889,7 +889,13 @@
               "best-practice/testing-process",
               "best-practice/routing-events",
               "best-practice/human-task-lifecycle",
-              "best-practice/agentic-orchestration"
+              "best-practice/agentic-orchestration",
+              {
+            "group": "Stella的ORION旅程",
+            "pages": [
+              "reference/external-task"
+            ]
+          }
             ]
           },
           {
