@@ -15,11 +15,9 @@ description: "Stella完成面试到自助办理入职的旅程"
 
 这一旅程不仅展示了 ORION 平台对业务流程的灵活建模能力，还突出了 AI 助理在理解意图、调度资源、协同办公等方面的作用。
 
-### BPMN设计
+## BPMN设计
 
-在这个流程中，我们以虚拟角色 Stella 的入职为背景，展示了一个包含协作泳道（Pool & Lane）、消息事件、用户任务、服务任务、调用子流程等关键元素的完整入职流程。
-
-![image.png](/images/image.png)
+在这个流程中，我们以虚拟角色 Stella 的入职为背景，展示了一个包含协作泳道（Pool & Lane）、消息事件、网关、用户任务、服务任务、调用子流程等关键元素的完整入职流程。
 
 ![image.png](/images/stella-onboarding-process.png)
 
@@ -43,13 +41,10 @@ description: "Stella完成面试到自助办理入职的旅程"
   </Step>
 </Steps>
 
-### 场景要素
+### 企业内部流程是如何与外部用户进行交互的？
 
-| 对象   | 资源                                       | 说明               |
-| ---- | ---------------------------------------- | ---------------- |
-| 业务流程 | `Process_ORIONAcademyOnboarding`         | 入职主流程            |
-| 业务流程 | `Process_ORIONAcademyOnboardingEmployee` | 员工自助确认Offer及提问流程 |
-| 业务流程 | `Process_ORIONAcademyOnboardingTask`     | 部门支持流程           |
-| 表单   | 员工自助确认Offer并向入职AI提问的UIUX                 |                  |
-| 邮件模板 | 入职通知邮件使用的html邮件模板                        |                  |
-| 表单   | 支持部门查看任务的UIUX                            |                  |
+在“邮件通知”这个任务中，系统将向候选人发送一份邮件，这份邮件中包含了一个打开员工入职确认流程的超链接。
+
+<Card title="Offer确认邮件" icon="envelope" iconType="duotone" img="images/accept-offer-email.png">
+  候选人点击超链接便可对Offer进行确认并向入职Agent提出入职后的相关问题。
+</Card>
