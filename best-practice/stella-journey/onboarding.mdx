@@ -1,0 +1,27 @@
+---
+title: "入职"
+description: "Stella完成面试到自助办理入职的旅程"
+---
+
+<Info>
+  该流程用于ORION Academy相关培训课程中
+</Info>
+
+![image.png](/images/academy-banner.png)
+
+在本示例中，我们构建了一个 AI 原生企业 —— ORION AI 的典型业务流程，用于演示新员工入职流程的自动化与智能化编排能力。主角 `Stella` 是一位虚拟角色，作为新任命的市场与销售负责人，她的入职旅程被设计为一个由 ORION 平台驱动的流程自动化示例。
+
+该流程从 HR 发出 Offer 开始，通过邮件触发流程并引导 Stella 进入一个自助式、智能化的入职体验。在这一过程中，AI 助理会接收她的回复、解答她提出的问题，并根据内容自动分配任务至相关部门（如 IT、行政、人事等），完成设备申请、系统开通、入职培训安排等一系列动作。
+
+这一旅程不仅展示了 ORION 平台对业务流程的灵活建模能力，还突出了 AI 助理在理解意图、调度资源、协同办公等方面的作用。
+
+## 场景要素
+
+| 对象   | 资源                                       | 说明               |
+| ---- | ---------------------------------------- | ---------------- |
+| 业务流程 | `Process_ORIONAcademyOnboarding`         | 入职主流程            |
+| 业务流程 | `Process_ORIONAcademyOnboardingEmployee` | 员工自助确认Offer及提问流程 |
+| 业务流程 | `Process_ORIONAcademyOnboardingTask`     | 部门支持流程           |
+| 表单   | 员工自助确认Offer并向入职AI提问的UIUX                 |                  |
+| 邮件模板 | 入职通知邮件使用的html邮件模板                        |                  |
+| 表单   | 支持部门查看任务的UIUX                            |                  |
