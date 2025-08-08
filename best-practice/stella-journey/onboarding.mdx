@@ -19,7 +19,7 @@ description: "Stella完成面试到自助办理入职的旅程"
 
 在这个流程中，我们以虚拟角色 Stella 的入职为背景，展示了一个包含协作泳道（Pool & Lane）、消息事件、用户任务、服务任务、调用子流程等关键元素的完整入职流程。
 
-![image.png](/images/stella-onboarding.png)
+![image.png](/images/stella-onboarding-process.png)
 
 <Card title="流程协作结构">
   - 流程分为两个泳道：主流程泳道` ORION Onboarding Process` 和子流程泳道 `ORION Onboarding - Employee`，体现了多参与者之间的流程协作关系。
@@ -28,7 +28,7 @@ description: "Stella完成面试到自助办理入职的旅程"
 
 <Steps>
   <Step title="流程启动" icon="play">
-    流程从上游入职流程触发，通过“邮件通知”的服务任务（`Service Task`）发送邮件通知候选人，并等待其确认。 
+    流程从上游入职流程触发，通过“邮件通知”的服务任务（`Service Task`）发送邮件通知候选人，并等待其确认。
   </Step>
   <Step title="员工邮件确认及智能代理触发">
     员工确认入职意向后会发送一个信号（`Signal`），主流程接收到这个信号后流程将执行“入职Agent”这个服务任务，由 AI 代理判断岗位与个性化需求，规划需要执行的入职任务（如设备申请、系统开通等）。
