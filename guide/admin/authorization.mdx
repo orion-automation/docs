@@ -1,0 +1,32 @@
+---
+title: "授权管理"
+description: "为用户或组配置系统的各类权限"
+---
+
+## 应用的访问授权
+
+对应权限对象中的Application。该对象用来控制用户能够使用的ORION产品模块。包括设计、自动化、应用、任务、AI、管理。
+
+系统管理员可以为用户或组配置该权限。权限对应的资源ID如下表所示：
+
+| 应用       | 资源ID          |
+| -------- | ------------- |
+| 设计       | dpadesign     |
+| 自动化      | dpaautomation |
+| 应用、任务、AI | dpatask       |
+| 管理       | dpaadmin      |
+
+以授权一个组使用“自动化”模块为例，我们可以`新增`或`编辑`一个已有的权限对象记录
+
+1. 选择授权给“`组`”
+2. 选择被授权的组
+3. 权限选择`ACCESS`
+4. 资源填写自动化应用对应`资源ID`，此处填写`dpaautomation`
+5. 点击保存
+
+<img
+  src="/images/image.png"
+  alt="image.png"
+  title="image.png"
+  style={{ width:"53%" }}
+/>
