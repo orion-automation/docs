@@ -891,11 +891,11 @@
               "best-practice/human-task-lifecycle",
               "best-practice/agentic-orchestration",
               {
-            "group": "Stella的ORION旅程",
-            "pages": [
-              "reference/external-task"
-            ]
-          }
+                "group": "Stella的ORION旅程",
+                "pages": [
+                  "best-practice/stella-journey/onboarding"
+                ]
+              }
             ]
           },
           {
