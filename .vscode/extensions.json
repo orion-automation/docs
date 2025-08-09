@@ -1,5 +1,6 @@
 {
     "recommendations": [
-        "mintlify.mintlify-snippets"
+        "mintlify.mintlify-snippets",
+        "mileskies.docusaurus-mdx-previewer"
     ]
 }
