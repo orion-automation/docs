@@ -51,11 +51,43 @@ description: "Stella完成面试到自助办理入职的旅程"
 
 在 ORION 的流程设置中，提供了 **“外部启动”** 增强属性，用于允许非系统用户通过超链接直接启动流程。开启该属性后，系统会生成一个外部启动链接，外部用户点击即可触发流程执行。
 
-请注意，该属性仅在流程`部署`完成后才能生效。
-
 <img
   src="/images/external-link-setting.png"
   alt="image.png"
   title="image.png"
   style={{ width:"53%" }}
 />
+
+### 流程等待候选人确认
+
+在邮件通知任务完成后，主流程会进入一个`中间捕获事件`（信号事件或消息事件），进入等待状态。
+
+当候选人在外部入职确认流程中提交确认信息时，该流程会触发一个`发送事件`（信号或消息），将确认结果传回主流程。一旦事件被捕获，主流程即可继续后续步骤，实现跨流程的无缝衔接。
+
+<img
+  src="/images/stella-onboarding-signal.png"
+  alt="Stella Onboarding Signal Pn"
+  title="Stella Onboarding Signal Pn"
+  style={{ width:"48%" }}
+/>
+
+<Info>
+  **提示**：信号事件适用于广播型通知（多个流程同时接收），消息事件适用于点对点的定向交互。
+</Info>
+
+### 动态发起多个协作流程
+
+在本流程中，使用 `Call Activity` 元素调用“部门协作流程”，并为其添加 `多实例标记`。
+
+这样，流程可以根据运行时传入的部门列表，**动态地**以串行或并行的方式发起多个协作流程实例，而无需在设计阶段预先绘制所有协作部门的分支。
+
+<img
+  src="/images/image.png"
+  alt="image.png"
+  title="image.png"
+  style={{ width:"40%" }}
+/>
+
+<Info>
+  **优势**：此方式可大幅减少流程模型的复杂度，并提升流程对业务变化的适应性。
+</Info>
