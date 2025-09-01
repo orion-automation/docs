@@ -544,7 +544,7 @@
                   "restapi/engine/process-definition/get-activity-instance-statistics",
                   "restapi/engine/process-definition/submit-start-form",
                   "restapi/engine/process-definition/active-suspend-by-latest",
-                  "restapi/engine/process-definition/delelte-by-key-tenant",
+                  "restapi/engine/process-definition/delete-by-key-tenant",
                   "restapi/engine/process-definition/get-by-key-tenant",
                   "restapi/engine/process-definition/get-deployed-start-form-tenant",
                   "restapi/engine/process-definition/get-diagram-tenant",
