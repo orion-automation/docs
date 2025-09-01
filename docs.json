@@ -572,7 +572,7 @@
                   "restapi/engine/process-definition/start-instance-by-id",
                   "restapi/engine/process-definition/get-start-fromkey-by-id",
                   "restapi/engine/process-definition/get-static-called-process-definition",
-                  "restapi/engine/process-definition/get-activity-instance-statistics",
+                  "restapi/engine/process-definition/get-activity-instance-statistics-by-id",
                   "restapi/engine/process-definition/submit-start-form-by-id",
                   "restapi/engine/process-definition/active-suspend-by-id",
                   "restapi/engine/process-definition/get-xml-by-id"
