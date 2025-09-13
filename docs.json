@@ -35,7 +35,13 @@
                 "pages": [
                   "guide/design/process",
                   "guide/design/dmn",
-                  "guide/design/form",
+                  {
+                "group": "表单",
+                "pages": [
+                  "guide/design/formbasic",
+                  "guide/design/formsample"
+                ]
+              },
                   "guide/design/page",
                   "guide/design/component/connector",
                   "guide/design/component/application",
