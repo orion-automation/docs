@@ -39,13 +39,13 @@ description: "在此我们将概要ORION中AI应用的基础对话及任务执�
 
 其中resourceType的值目前支持：
 
-1. report：在resourceUrl给出一个BI报表的URL，前端会通过iframe渲染展示这个报表
-2. process：在resourceCode中给出要执行的流程定义ID，AI将会调用该流程执行任务
-3. task：在resourceCode中给出要查看的任务对应的流程定义ID，AI会调用显示相应的任务列表
+1. `report`：在resourceUrl给出一个BI报表的URL，前端会通过iframe渲染展示这个报表
+2. `process`：在resourceCode中给出要执行的流程定义ID，AI将会调用该流程执行任务
+3. `task`：在resourceCode中给出要查看的任务对应的流程定义ID，AI会调用显示相应的任务列表
 
 <CodeGroup>
 
-``` filename
+```filename
 "actionCode":"environmentReport";
 "resouceCode":"environmentReport";
 "resourceName":"温室环境可视化分析";
@@ -96,6 +96,6 @@ description: "在此我们将概要ORION中AI应用的基础对话及任务执�
     </CodeGroup>
   </Step>
   <Step title="部署流程定义">
-    部署流程后，您便可以在ORION的AI模块中创建一个对话，并选择到这个AI任务处理智能体了。后续您也可以根据实际情况创建不通的任务处理智能体。
+    部署流程后，您便可以在ORION的AI模块中创建一个对话，并选择到这个AI任务处理智能体了。后续你也可以配置不同的个性化任务处理智能体，用户在创建AI对话时可以进行选择。
   </Step>
 </Steps>
