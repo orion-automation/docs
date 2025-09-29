@@ -7,25 +7,20 @@ description: "在此我们将概要ORION中AI应用的基础对话及任务执�
   ORION AI 功能当前处于 **Beta 阶段**，我们正持续优化和完善算法性能与用户体验。在此阶段上线的功能，可能会根据实际使用情况进行快速迭代和更新。
 </Note>
 
-AI对话功能包含以下主要功能：
-1. 与用户多轮对话，理解用户意图
-2. 提交自动执行相关任务
-3. 使用ReAct模式自主执行任务
-
 ## 配置一个对话模型流程
 
 对话模型流程的作用是形成一个可以多轮对话的AI Copilot，理解用户的意图，帮助用户执行相关任务。
 
 <Steps>
   <Step title="导入AI Copilot的基础BPMN">
-    你可以在[这里下载](https://oriorion.com/reference/aicopilot_basic.bpmn)到这个基础BPMN定义。这个流程的定义ID为“Process_bpezAICopilot_Test”，请不要更改它。你可以在设计模块中上传这个文件进行后续的参数设置、部署管理。
+    你可以在[这里下载](https://oriorion.com/reference/aicopilot_basic.bpmn)到这个基础BPMN定义。这个流程的定义ID为“`Process_bpezAICopilot_Test`”，请不要更改它。你可以在设计模块中上传这个文件进行后续的参数设置、部署管理。
   </Step>
   <Step title="配置默认的个性化对话参数">
-    流程的第一个task中需要配置一个名为aiChatflowToken的输出。配置参数为：
+    流程的第一个task中需要配置一个名为`aiChatflowToken`的输出。配置参数为：
 
-    - Process variable name为固定的值“aiChatflowToken
-    - Assignment type为String or expression
-    - Value的值为通过ORION内置的Dify配置的Chatflow的API Key，例如：“app-e7jEfUUj7obC3Cd25f9qb8CP”
+    - `Process variable name`为固定的值“aiChatflowToken
+    - `Assignment type`为String or expression
+    - `Value`的值为通过ORION内置的Dify配置的Chatflow的API Key，例如：“**app-e7jEfUUj7obC3Cd25f9qb8CP**”
 
     在 ORION 内置的 **Dify** 中配置一个支持 RAG 的 **Chatflow**，即可实现个性化对话。你可以通过 **“设计 - 智能体”** 模块完成配置，从而让用户获得更专业、更贴合需求的互动体验。
 
@@ -33,5 +28,74 @@ AI对话功能包含以下主要功能：
   </Step>
   <Step title="部署AI Copilot基础BPMN">
     完成以上步骤后，你便可以部署这个BPMN流程。
+  </Step>
+</Steps>
+
+## 配置任务处理智能体调用流程
+
+在AI Copilot的基础BPMN中有一个Call Activity通过变量调用了任务处理的智能体流程。接下去我们来配置一个任务处理的智能体流程让ORION的AI对话能够实现自动处理相关任务、返回相关报表等功能。
+
+任务处理智能体需要一个知识库，在这个知识库中维护可以被调用的流程、报表、任务定义。知识库的定义遵循以下内容格式即可，您可以维护在一个关系型数据库中，也可以通过RAG知识库维护。
+
+其中resourceType的值目前支持：
+
+1. report：在resourceUrl给出一个BI报表的URL，前端会通过iframe渲染展示这个报表
+2. process：在resourceCode中给出要执行的流程定义ID，AI将会调用该流程执行任务
+3. task：在resourceCode中给出要查看的任务对应的流程定义ID，AI会调用显示相应的任务列表
+
+<CodeGroup>
+
+``` filename
+"actionCode":"environmentReport";
+"resouceCode":"environmentReport";
+"resourceName":"温室环境可视化分析";
+"resourceUrl":"https://metabase.aipaasbrain.com/public/dashboard/aaf0d33c-baf9-4d3c-828e-53abb103d3fe";
+"resourceType":"report";
+"Remarks":"查看温室的室内外气温光照情况";
+"Keywords":"温室环境分析"
+```
+
+</CodeGroup>
+
+<Steps>
+  <Step title="配置任务处理流程BPMN">
+    流程的定义ID中必须包含关键词“`bpezAICopilotCal`l”，例如“Process_EOAI_AgenticGoalSetting_bpezAICopilotCall”
+  </Step>
+  <Step title="配置任务处理Chatflow">
+    可以通过ORION内置的Dify配置一个任务获取及输出的Chatflow或Workflow。这个智能体输出的关键为以下json。
+
+    <CodeGroup>
+
+    ```json filename
+    {
+      "tasks": [
+        {
+          "name": "简洁任务名称，来源于 resourceName",
+          "key": "对应 actionCode",
+          "resource": "对应 resourceUrl",
+          "type": "对应 resourceType",
+          "status": "suggested",
+          "reason": "简要说明推荐该任务的理由，与用户输入的语义有关"
+        }
+        // 最多3个任务，若无匹配任务，输出一个彩蛋任务如下：
+        // {
+        //   "name": "彩蛋任务",
+        //   "key": "orionView",
+        //   "resource": "https://www.oriorion.com/assets/img/bg/orion.svg",
+        //   "type": "report",
+        //   "status": "suggested",
+        //   "reason": "今天暂时没有匹配的任务，喝杯茶，休息一下吧！"
+        // }
+      ],
+      "summary": "总结推荐任务的背景与合理性。若无匹配任务，可写为‘未匹配到相关任务’。",
+      "feedback": "总结用户可能需要补充的上下文信息。",
+      "rounds": "{{#sys.dialogue_count#}}"
+    }
+    ```
+
+    </CodeGroup>
+  </Step>
+  <Step title="部署流程定义">
+    部署流程后，您便可以在ORION的AI模块中创建一个对话，并选择到这个AI任务处理智能体了。
   </Step>
 </Steps>
