@@ -5,7 +5,28 @@ description: "在此我们将概要ORION中AI应用的基础对话及任务执�
 
 <Note>
   ORION AI 功能当前处于 **Beta 阶段**，我们正持续优化和完善算法性能与用户体验。在此阶段上线的功能，可能会根据实际使用情况进行快速迭代和更新。
-
-  **2025年9月**
 </Note>
 
+## 配置一个对话模型流程
+
+对话模型流程的作用是形成一个可以多轮对话的AI Copilot，理解用户的意图，帮助用户执行相关任务。
+
+<Steps>
+  <Step title="导入AI Copilot的基础BPMN">
+    你可以在[这里下载](https://oriorion.com/reference/aicopilot_basic.bpmn)到这个基础BPMN定义。这个流程的定义ID为“Process_bpezAICopilot_Test”，请不要更改它。你可以在设计模块中上传这个文件进行后续的参数设置、部署管理。
+  </Step>
+  <Step title="配置默认的个性化对话参数">
+    流程的第一个task中需要配置一个名为aiChatflowToken的输出。配置参数为：
+
+    - Process variable name为固定的值“aiChatflowToken
+    - Assignment type为String or expression
+    - Value的值为通过ORION内置的Dify配置的Chatflow的API Key，例如：“app-e7jEfUUj7obC3Cd25f9qb8CP”
+
+    在 ORION 内置的 **Dify** 中配置一个支持 RAG 的 **Chatflow**，即可实现个性化对话。你可以通过 **“设计 - 智能体”** 模块完成配置，从而让用户获得更专业、更贴合需求的互动体验。
+
+    用户在创建对话后，还可以灵活切换至其他已配置的个性化 Chatflow。
+  </Step>
+  <Step title="部署AI Copilot基础BPMN">
+    完成以上步骤后，你便可以部署这个BPMN流程。
+  </Step>
+</Steps>
