@@ -1,0 +1,15 @@
+---
+title: "业务规则任务"
+description: "Business Rule Task"
+---
+
+业务规则任务用于同步执行一条或多条业务规则。此外，它还可以用于调用 Java 代码，或生成一个由外部工作者异步完成的工作项，也可以调用以 Web 服务形式实现的逻辑。
+
+## **使用内置的DMN引擎**
+
+你可以通过集成内置的**DMN 引擎** 来评估（执行）一个 DMN 决策。要执行决策评估，必须在任务中指定要评估的决策键`camunda:decisionRef 属性`。此外，`camunda:decisionRefBinding `属性用于指定要评估的决策版本，其有效取值包括：
+
+- **deployment**：评估与当前流程版本一同部署的决策版本；
+- **latest**：始终评估最新版本的决策；
+- **version**：通过 **camunda:decisionRefVersion** 属性指定要执行的特定版本；
+- **versionTag**：通过 **camunda:decisionRefVersionTag** 属性指定要执行的特定版本标签。
